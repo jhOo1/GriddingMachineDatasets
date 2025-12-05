@@ -87,6 +87,7 @@ read_input(filepath::String, varname::String, dict::Union{Dict, OrderedDict}) = 
     end;
     if size(data_d, 1) in [360, 720, 1440]
         land_mask = regrid(read_dataset("LM_4X_1Y_V1"), size(data_d, 1) ÷ 360);
+        # land_mask = regrid(read_nc(download_artifact!("LM_4X_1Y_V1"), "data"), size(data_d, 1) ÷ 360);
         n_gapfill = fill_missing_values!(data_d, land_mask, mthd);
         @info "Gaps filled" n_gapfill;
         if n_gapfill > 0

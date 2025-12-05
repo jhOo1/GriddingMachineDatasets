@@ -1,0 +1,36 @@
+# File name patterns
+# Note that if YYYY does not exist, then it is not a duplicated task
+# These keys are mandatory:
+#     - PATTERN
+#     - PREFIX
+#     - NX
+#     - MT
+#     - VV
+FILE:
+  PATTERN : "PREFIX_NX_MT_VV.nc"
+  PREFIX  : ["ELEV"]
+  NX      : [4]
+  MT      : ["1Y"]
+  VV      : ["V1"]
+
+# Folder structure for input and output
+FOLDER:
+  ORIGINAL    : "v0"
+  REPROCESSED : "v0"
+
+# Data configuration
+# Note that the labels should match the PREFIX in FILE section
+DATA:
+  ABOUT          : "ELEV from Yamazaki D. et al.(2017) (https://doi.org/10.1002/2017GL072874)"
+  CHANGE_LOGS    : ["The original data was from 90 to -90 in latitude, and we converted to from -90 to 90", "There was no uncertainty included, and we added an empty matrix filled with NaN", "Ocean was marked using NaN, and we replaced those with 0 m"]
+  GAPFILL        : 0
+  LABEL          : ["data"]
+  LIMITS         : [0, 1]
+  REV_LAT        : False
+  UNIT           : "-"
+  VERIFY_ONCE    : True
+
+# GriddingMachine configuration
+GRIDDINGMACHINE:
+  TAG : ELEV
+  REVISION : "R1"

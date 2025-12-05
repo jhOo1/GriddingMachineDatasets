@@ -1,0 +1,36 @@
+# File name patterns
+# Note that if YYYY does not exist, then it is not a duplicated task
+# These keys are mandatory:
+#     - PATTERN
+#     - PREFIX
+#     - NX
+#     - MT
+#     - VV
+FILE:
+  PATTERN : "PREFIX_NX_MT_VV.nc"
+  PREFIX  : ["CI"]
+  NX      : [2]
+  MT      : ["1M"]
+  VV      : ["V3"]
+
+# Folder structure for input and output
+FOLDER:
+  ORIGINAL    : "v0"
+  REPROCESSED : "v0"
+
+# Data configuration
+# Note that the labels should match the PREFIX in FILE section
+DATA:
+  ABOUT          : "CI from Wei S. et al. (2019) (https://doi.org/10.1016/j.rse.2019.111296)"
+  CHANGE_LOGS    : ["The original files used GeoTIFF, and we converted it to NetCDF", "The original lat was from north to south, and we reorgainized it from south to north", "The data is regridded to 0.5 degree resolution"]
+  GAPFILL        : 0
+  LABEL          : ["data"]
+  LIMITS         : [0, 1]
+  REV_LAT        : False
+  UNIT           : "-"
+  VERIFY_ONCE    : True
+
+# GriddingMachine configuration
+GRIDDINGMACHINE:
+  TAG : CI
+  REVISION : "R1"

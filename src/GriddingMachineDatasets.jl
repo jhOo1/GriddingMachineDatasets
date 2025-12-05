@@ -3,12 +3,12 @@ module GriddingMachineDatasets
 using HTTP
 using Revise
 
-using ArchGDAL: getband, read
 using GriddingMachine.Indexer: read_dataset
 using NetcdfIO: append_nc!, dimname_nc, read_nc, save_nc!, size_nc, varname_nc
 using OrderedCollections: OrderedDict
 using PkgUtility.ArtifactTools: read_library
 using PkgUtility.MathTools: nanmax, nanmean, nanmin, regrid
+using GriddingMachine.Collector: download_artifact!
 
 
 # GLOABL VARIABLES
@@ -40,3 +40,14 @@ include("deployment/2-upload.jl");
 
 
 end # module
+
+# 执行 pipeline 处理指定 YAML 文件
+#=
+
+begin
+    using GriddingMachineDatasets
+    yaml_path = "/mnt/net/ormosia/group/jianghao/GitHub/GriddingMachineDatasets/yaml/community/CI_2X_1M_V3.yaml"
+    GriddingMachineDatasets.process_dataset!(yaml_path)
+end 
+
+=#

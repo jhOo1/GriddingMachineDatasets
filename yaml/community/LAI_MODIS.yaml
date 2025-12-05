@@ -1,0 +1,37 @@
+# File name patterns
+# Note that if YYYY does not exist, then it is not a duplicated task
+# These keys are mandatory:
+#     - PATTERN
+#     - PREFIX
+#     - NX
+#     - MT
+#     - VV
+FILE:
+  PATTERN : "PREFIX_NX_MT_YYYY_VV.nc"
+  PREFIX  : ["LAI_MODIS"]
+  NX      : [2]
+  MT      : ["8D"]
+  YYYY    : [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+  VV      : ["V1"]
+
+# Folder structure for input and output
+FOLDER:
+  ORIGINAL    : "v0"
+  REPROCESSED : "v0/lai"
+
+# Data configuration
+# Note that the labels should match the PREFIX in FILE section
+DATA:
+  ABOUT          : "Leaf area index (LAI) from MODIS"
+  CHANGE_LOGS    : ["The original lat was from north to south, and we reorgainized it from south to north", "There was no uncertainty included, and we added an empty matrix filled with NaN", "Grids with a LAI = 0 were replaced using NaN"]
+  GAPFILL        : 0
+  LABEL          : ["data"]
+  LIMITS         : [0, 10]
+  REV_LAT        : False
+  UNIT           : "-"
+  VERIFY_ONCE    : True
+
+# GriddingMachine configuration
+GRIDDINGMACHINE:
+  TAG : "LAI_MODIS"
+  REVISION : "R1"
