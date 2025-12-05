@@ -1,172 +1,3903 @@
+BIOMASS_ROOT_120X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/BIOMASS_ROOT_120X_1Y_V1.nc"
+BIOMASS_SHOOT_120X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/BIOMASS_SHOOT_120X_1Y_V2.nc"
+CHL_20X_7D_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CHL_20X_7D_V2.nc"
 CHL_2X_7D_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "1e3f3f3f4f4e4d4c3b3a393837363534"
-  URL: "https://zenodo.org/records/17732092/files/CHL_2X_7D_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CHL_2X_7D_V1.nc"
+    - "https://zenodo.org/records/17732092/files/CHL_2X_7D_V1.nc"
+CHL_2X_7D_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CHL_2X_7D_V2.nc"
 CH_20X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "8f2d3237f3614e5bb189c09a357c8242"
-  URL: "https://zenodo.org/records/17732092/files/CH_20X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CH_20X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/CH_20X_1Y_V1.nc"
+CH_2X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CH_2X_1Y_V2.nc"
+CI_20X_1M_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CI_20X_1M_V3.nc"
+CI_240X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CI_240X_1Y_V1.nc"
 CI_2X_1M_V3:
-  PATH: "public/old-gm1-gm2"
-  SHA: "d2e8690ff3db7ed9cd7922dd3e205e49"
-  URL: "https://zenodo.org/records/17732092/files/CI_2X_1M_V3.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CI_2X_1M_V3.nc"
+    - "https://zenodo.org/records/17732092/files/CI_2X_1M_V3.nc"
 CI_2X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "6231b01339e150f445218d5cc4956477"
-  URL: "https://zenodo.org/records/17732092/files/CI_2X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CI_2X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/CI_2X_1Y_V1.nc"
+CI_2X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CI_2X_1Y_V2.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2000_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2001_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2002_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2003_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2004_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2005_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2006_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2007_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2008_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2009_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2010_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2011_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2012_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2013_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2014_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2015_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2016_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2017_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2018_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2019_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2020_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2021_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2022_V1.nc"
+CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2023_V1.nc"
 ELEV_4X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "749e160f809f56c32cd3fa007e1e005f"
-  URL: "https://zenodo.org/records/17732092/files/ELEV_4X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/ELEV_4X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/ELEV_4X_1Y_V1.nc"
+GPP_MPI_RS_2X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2001_V1.nc"
+GPP_MPI_RS_2X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2002_V1.nc"
+GPP_MPI_RS_2X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2003_V1.nc"
+GPP_MPI_RS_2X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2004_V1.nc"
+GPP_MPI_RS_2X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2005_V1.nc"
+GPP_MPI_RS_2X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2006_V1.nc"
+GPP_MPI_RS_2X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2007_V1.nc"
+GPP_MPI_RS_2X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2008_V1.nc"
+GPP_MPI_RS_2X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2009_V1.nc"
+GPP_MPI_RS_2X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2010_V1.nc"
+GPP_MPI_RS_2X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2011_V1.nc"
+GPP_MPI_RS_2X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2012_V1.nc"
+GPP_MPI_RS_2X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2013_V1.nc"
+GPP_MPI_RS_2X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2014_V1.nc"
+GPP_MPI_RS_2X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2015_V1.nc"
+GPP_MPI_RS_2X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2016_V1.nc"
+GPP_MPI_RS_2X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2017_V1.nc"
+GPP_MPI_RS_2X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2018_V1.nc"
+GPP_MPI_RS_2X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_1M_2019_V1.nc"
+GPP_MPI_RS_2X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2001_V1.nc"
+GPP_MPI_RS_2X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2002_V1.nc"
+GPP_MPI_RS_2X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2003_V1.nc"
+GPP_MPI_RS_2X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2004_V1.nc"
+GPP_MPI_RS_2X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2005_V1.nc"
+GPP_MPI_RS_2X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2006_V1.nc"
+GPP_MPI_RS_2X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2007_V1.nc"
+GPP_MPI_RS_2X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2008_V1.nc"
+GPP_MPI_RS_2X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2009_V1.nc"
+GPP_MPI_RS_2X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2010_V1.nc"
+GPP_MPI_RS_2X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2011_V1.nc"
+GPP_MPI_RS_2X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2012_V1.nc"
+GPP_MPI_RS_2X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2013_V1.nc"
+GPP_MPI_RS_2X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2014_V1.nc"
+GPP_MPI_RS_2X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2015_V1.nc"
+GPP_MPI_RS_2X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2016_V1.nc"
+GPP_MPI_RS_2X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2017_V1.nc"
+GPP_MPI_RS_2X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2018_V1.nc"
+GPP_MPI_RS_2X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_MPI_RS_2X_8D_2019_V1.nc"
+GPP_VPM_12X_8D_2000_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2000_V2.nc"
+GPP_VPM_12X_8D_2001_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2001_V2.nc"
+GPP_VPM_12X_8D_2002_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2002_V2.nc"
+GPP_VPM_12X_8D_2003_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2003_V2.nc"
+GPP_VPM_12X_8D_2004_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2004_V2.nc"
+GPP_VPM_12X_8D_2005_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2005_V2.nc"
+GPP_VPM_12X_8D_2006_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2006_V2.nc"
+GPP_VPM_12X_8D_2007_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2007_V2.nc"
+GPP_VPM_12X_8D_2008_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2008_V2.nc"
+GPP_VPM_12X_8D_2009_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2009_V2.nc"
+GPP_VPM_12X_8D_2010_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2010_V2.nc"
+GPP_VPM_12X_8D_2011_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2011_V2.nc"
+GPP_VPM_12X_8D_2012_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2012_V2.nc"
+GPP_VPM_12X_8D_2013_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2013_V2.nc"
+GPP_VPM_12X_8D_2014_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2014_V2.nc"
+GPP_VPM_12X_8D_2015_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2015_V2.nc"
+GPP_VPM_12X_8D_2016_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2016_V2.nc"
+GPP_VPM_12X_8D_2017_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2017_V2.nc"
+GPP_VPM_12X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2018_V2.nc"
+GPP_VPM_12X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_12X_8D_2019_V2.nc"
+GPP_VPM_5X_8D_2000_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2000_V2.nc"
+GPP_VPM_5X_8D_2001_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2001_V2.nc"
+GPP_VPM_5X_8D_2002_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2002_V2.nc"
+GPP_VPM_5X_8D_2003_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2003_V2.nc"
+GPP_VPM_5X_8D_2004_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2004_V2.nc"
+GPP_VPM_5X_8D_2005_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2005_V2.nc"
+GPP_VPM_5X_8D_2006_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2006_V2.nc"
+GPP_VPM_5X_8D_2007_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2007_V2.nc"
+GPP_VPM_5X_8D_2008_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2008_V2.nc"
+GPP_VPM_5X_8D_2009_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2009_V2.nc"
+GPP_VPM_5X_8D_2010_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2010_V2.nc"
+GPP_VPM_5X_8D_2011_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2011_V2.nc"
+GPP_VPM_5X_8D_2012_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2012_V2.nc"
+GPP_VPM_5X_8D_2013_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2013_V2.nc"
+GPP_VPM_5X_8D_2014_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2014_V2.nc"
+GPP_VPM_5X_8D_2015_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2015_V2.nc"
+GPP_VPM_5X_8D_2016_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2016_V2.nc"
+GPP_VPM_5X_8D_2017_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2017_V2.nc"
+GPP_VPM_5X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2018_V2.nc"
+GPP_VPM_5X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/GPP_VPM_5X_8D_2019_V2.nc"
+LAI_MODIS_10X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2000_V1.nc"
+LAI_MODIS_10X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2001_V1.nc"
+LAI_MODIS_10X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2002_V1.nc"
+LAI_MODIS_10X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2003_V1.nc"
+LAI_MODIS_10X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2004_V1.nc"
+LAI_MODIS_10X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2005_V1.nc"
+LAI_MODIS_10X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2006_V1.nc"
+LAI_MODIS_10X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2007_V1.nc"
+LAI_MODIS_10X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2008_V1.nc"
+LAI_MODIS_10X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2009_V1.nc"
+LAI_MODIS_10X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2010_V1.nc"
+LAI_MODIS_10X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2011_V1.nc"
+LAI_MODIS_10X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2012_V1.nc"
+LAI_MODIS_10X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2013_V1.nc"
+LAI_MODIS_10X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2014_V1.nc"
+LAI_MODIS_10X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2015_V1.nc"
+LAI_MODIS_10X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2016_V1.nc"
+LAI_MODIS_10X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2017_V1.nc"
+LAI_MODIS_10X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2018_V1.nc"
+LAI_MODIS_10X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2019_V1.nc"
+LAI_MODIS_10X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_1M_2020_V1.nc"
+LAI_MODIS_10X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2000_V1.nc"
+LAI_MODIS_10X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2001_V1.nc"
+LAI_MODIS_10X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2002_V1.nc"
+LAI_MODIS_10X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2003_V1.nc"
+LAI_MODIS_10X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2004_V1.nc"
+LAI_MODIS_10X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2005_V1.nc"
+LAI_MODIS_10X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2006_V1.nc"
+LAI_MODIS_10X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2007_V1.nc"
+LAI_MODIS_10X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2008_V1.nc"
+LAI_MODIS_10X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2009_V1.nc"
+LAI_MODIS_10X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2010_V1.nc"
+LAI_MODIS_10X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2011_V1.nc"
+LAI_MODIS_10X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2012_V1.nc"
+LAI_MODIS_10X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2013_V1.nc"
+LAI_MODIS_10X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2014_V1.nc"
+LAI_MODIS_10X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2015_V1.nc"
+LAI_MODIS_10X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2016_V1.nc"
+LAI_MODIS_10X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2017_V1.nc"
+LAI_MODIS_10X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2018_V1.nc"
+LAI_MODIS_10X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2019_V1.nc"
+LAI_MODIS_10X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_10X_8D_2020_V1.nc"
+LAI_MODIS_20X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2000_V1.nc"
+LAI_MODIS_20X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2001_V1.nc"
+LAI_MODIS_20X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2002_V1.nc"
+LAI_MODIS_20X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2003_V1.nc"
+LAI_MODIS_20X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2004_V1.nc"
+LAI_MODIS_20X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2005_V1.nc"
+LAI_MODIS_20X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2006_V1.nc"
+LAI_MODIS_20X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2007_V1.nc"
+LAI_MODIS_20X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2008_V1.nc"
+LAI_MODIS_20X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2009_V1.nc"
+LAI_MODIS_20X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2010_V1.nc"
+LAI_MODIS_20X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2011_V1.nc"
+LAI_MODIS_20X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2012_V1.nc"
+LAI_MODIS_20X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2013_V1.nc"
+LAI_MODIS_20X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2014_V1.nc"
+LAI_MODIS_20X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2015_V1.nc"
+LAI_MODIS_20X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2016_V1.nc"
+LAI_MODIS_20X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2017_V1.nc"
+LAI_MODIS_20X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2018_V1.nc"
+LAI_MODIS_20X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2019_V1.nc"
+LAI_MODIS_20X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_1M_2020_V1.nc"
+LAI_MODIS_20X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2000_V1.nc"
+LAI_MODIS_20X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2001_V1.nc"
+LAI_MODIS_20X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2002_V1.nc"
+LAI_MODIS_20X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2003_V1.nc"
+LAI_MODIS_20X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2004_V1.nc"
+LAI_MODIS_20X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2005_V1.nc"
+LAI_MODIS_20X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2006_V1.nc"
+LAI_MODIS_20X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2007_V1.nc"
+LAI_MODIS_20X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2008_V1.nc"
+LAI_MODIS_20X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2009_V1.nc"
+LAI_MODIS_20X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2010_V1.nc"
+LAI_MODIS_20X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2011_V1.nc"
+LAI_MODIS_20X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2012_V1.nc"
+LAI_MODIS_20X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2013_V1.nc"
+LAI_MODIS_20X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2014_V1.nc"
+LAI_MODIS_20X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2015_V1.nc"
+LAI_MODIS_20X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2016_V1.nc"
+LAI_MODIS_20X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2017_V1.nc"
+LAI_MODIS_20X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2018_V1.nc"
+LAI_MODIS_20X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2019_V1.nc"
+LAI_MODIS_20X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_20X_8D_2020_V1.nc"
+LAI_MODIS_2X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2000_V1.nc"
+LAI_MODIS_2X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2001_V1.nc"
+LAI_MODIS_2X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2002_V1.nc"
+LAI_MODIS_2X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2003_V1.nc"
+LAI_MODIS_2X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2004_V1.nc"
+LAI_MODIS_2X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2005_V1.nc"
+LAI_MODIS_2X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2006_V1.nc"
+LAI_MODIS_2X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2007_V1.nc"
+LAI_MODIS_2X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2008_V1.nc"
+LAI_MODIS_2X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2009_V1.nc"
+LAI_MODIS_2X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2010_V1.nc"
+LAI_MODIS_2X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2011_V1.nc"
+LAI_MODIS_2X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2012_V1.nc"
+LAI_MODIS_2X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2013_V1.nc"
+LAI_MODIS_2X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2014_V1.nc"
+LAI_MODIS_2X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2015_V1.nc"
+LAI_MODIS_2X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2016_V1.nc"
+LAI_MODIS_2X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2017_V1.nc"
+LAI_MODIS_2X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2018_V1.nc"
+LAI_MODIS_2X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2019_V1.nc"
+LAI_MODIS_2X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LAI_MODIS_2X_1M_2020_V1.nc"
 LAI_MODIS_2X_8D_2000_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "5d480e62d9b32b05db13d43c899a30a6"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2000_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2000_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2000_V1.nc"
 LAI_MODIS_2X_8D_2001_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "459820e1b9a6cfc637f35bc9af5f0884"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2001_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2001_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2001_V1.nc"
 LAI_MODIS_2X_8D_2002_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "3e688ccec48bbd310df3d265e9120cbb"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2002_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2002_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2002_V1.nc"
 LAI_MODIS_2X_8D_2003_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "badbeffb24082a374c9687b267e87d05"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2003_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2003_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2003_V1.nc"
 LAI_MODIS_2X_8D_2004_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "36cf6932591f9969ee652d370b077ff1"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2004_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2004_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2004_V1.nc"
 LAI_MODIS_2X_8D_2005_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "4418d4aee0a9682c83bff9b92f7accaf"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2005_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2005_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2005_V1.nc"
 LAI_MODIS_2X_8D_2006_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "6f86a7a437efae71e248f39d25f6bd13"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2006_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2006_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2006_V1.nc"
 LAI_MODIS_2X_8D_2007_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "9318786ed4c4ee5299362f9e5c6953f3"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2007_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2007_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2007_V1.nc"
 LAI_MODIS_2X_8D_2008_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "f9b8a3b8a193e0172b48e5f65acb9cf5"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2008_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2008_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2008_V1.nc"
 LAI_MODIS_2X_8D_2009_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "120ea5992b506e3d61f730cb7dfc53d3"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2009_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2009_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2009_V1.nc"
 LAI_MODIS_2X_8D_2010_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "0701a050a85d2456db51cec00514f27e"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2010_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2010_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2010_V1.nc"
 LAI_MODIS_2X_8D_2011_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "225ce57285a7542b9d57ef9d9e71e7b2"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2011_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2011_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2011_V1.nc"
 LAI_MODIS_2X_8D_2012_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "ab0c0dd7b46d9198202482781a275738"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2012_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2012_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2012_V1.nc"
 LAI_MODIS_2X_8D_2013_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "1539ba1e94625996ea9ee0c00ed100ba"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2013_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2013_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2013_V1.nc"
 LAI_MODIS_2X_8D_2014_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "7032caaeb67d2f64c4ea83d8caeefbb9"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2014_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2014_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2014_V1.nc"
 LAI_MODIS_2X_8D_2015_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "9c6cf9ab564939923561d8f32f8c9bb0"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2015_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2015_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2015_V1.nc"
 LAI_MODIS_2X_8D_2016_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "c5782a2403aa57b07234385476c3f499"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2016_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2016_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2016_V1.nc"
 LAI_MODIS_2X_8D_2017_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "18e2024626ac1a07e9ced62146949aed"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2017_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2017_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2017_V1.nc"
 LAI_MODIS_2X_8D_2018_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "a32aeff20cedf1d73ce28e775544c161"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2018_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2018_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2018_V1.nc"
 LAI_MODIS_2X_8D_2019_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "49cd9a749ed7aaa15f72ace5c9976e60"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2019_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2019_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2019_V1.nc"
 LAI_MODIS_2X_8D_2020_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "163b76c13a923ec70e7bf8968f6bd1db"
-  URL: "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2020_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2020_V1.nc"
+    - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2020_V1.nc"
+LDMC_12X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LDMC_12X_1Y_V1.nc"
+LDMC_36X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LDMC_36X_1Y_V1.nc"
+LE_MPI_RS_2X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2001_V1.nc"
+LE_MPI_RS_2X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2002_V1.nc"
+LE_MPI_RS_2X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2003_V1.nc"
+LE_MPI_RS_2X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2004_V1.nc"
+LE_MPI_RS_2X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2005_V1.nc"
+LE_MPI_RS_2X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2006_V1.nc"
+LE_MPI_RS_2X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2007_V1.nc"
+LE_MPI_RS_2X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2008_V1.nc"
+LE_MPI_RS_2X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2009_V1.nc"
+LE_MPI_RS_2X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2010_V1.nc"
+LE_MPI_RS_2X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2011_V1.nc"
+LE_MPI_RS_2X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2012_V1.nc"
+LE_MPI_RS_2X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2013_V1.nc"
+LE_MPI_RS_2X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2014_V1.nc"
+LE_MPI_RS_2X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_1M_2015_V1.nc"
+LE_MPI_RS_2X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2001_V1.nc"
+LE_MPI_RS_2X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2002_V1.nc"
+LE_MPI_RS_2X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2003_V1.nc"
+LE_MPI_RS_2X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2004_V1.nc"
+LE_MPI_RS_2X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2005_V1.nc"
+LE_MPI_RS_2X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2006_V1.nc"
+LE_MPI_RS_2X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2007_V1.nc"
+LE_MPI_RS_2X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2008_V1.nc"
+LE_MPI_RS_2X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2009_V1.nc"
+LE_MPI_RS_2X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2010_V1.nc"
+LE_MPI_RS_2X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2011_V1.nc"
+LE_MPI_RS_2X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2012_V1.nc"
+LE_MPI_RS_2X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2013_V1.nc"
+LE_MPI_RS_2X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2014_V1.nc"
+LE_MPI_RS_2X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LE_MPI_RS_2X_8D_2015_V1.nc"
+LMA_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V1.nc"
+LMA_2X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V2.nc"
+LMA_2X_1Y_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V3.nc"
+LMA_2X_1Y_V4:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V4.nc"
+LMA_2X_1Y_V5:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V5.nc"
+LMA_2X_1Y_V6:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V6.nc"
+LMA_2X_1Y_V7:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V7.nc"
 LM_4X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "5183beb11b47c10acee0f6f588340cd7"
-  URL: "https://zenodo.org/records/17709092/files/LM_4X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LM_4X_1Y_V1.nc"
+    - "https://zenodo.org/records/17709092/files/LM_4X_1Y_V1.nc"
+LNC_12X_1Y_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LNC_12X_1Y_V3.nc"
+LNC_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LNC_2X_1Y_V1.nc"
+LNC_2X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LNC_2X_1Y_V2.nc"
+LNC_36X_1Y_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LNC_36X_1Y_V3.nc"
+LPC_12X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LPC_12X_1Y_V2.nc"
+LPC_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LPC_2X_1Y_V1.nc"
+LPC_36X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LPC_36X_1Y_V2.nc"
+LST_MOD11A2_DAY_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2000_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2001_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2002_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2003_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2004_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2005_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2006_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2007_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2008_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2009_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2010_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2011_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2012_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2013_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2014_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2015_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2016_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2017_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2018_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2019_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2020_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2021_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2022_V1.nc"
+LST_MOD11A2_DAY_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_1M_2023_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2000_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2001_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2002_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2003_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2004_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2005_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2006_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2007_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2008_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2009_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2010_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2011_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2012_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2013_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2014_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2015_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2016_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2017_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2018_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2019_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2020_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2021_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2022_V1.nc"
+LST_MOD11A2_DAY_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_DAY_1X_8D_2023_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2000_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2001_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2002_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2003_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2004_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2005_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2006_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2007_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2008_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2009_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2010_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2011_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2012_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2013_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2014_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2015_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2016_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2017_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2018_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2019_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2020_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2021_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2022_V1.nc"
+LST_MOD11A2_NIGHT_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_1M_2023_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2000_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2001_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2002_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2003_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2004_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2005_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2006_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2007_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2008_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2009_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2010_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2011_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2012_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2013_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2014_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2015_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2016_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2017_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2018_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2019_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2020_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2021_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2022_V1.nc"
+LST_MOD11A2_NIGHT_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/LST_MOD11A2_NIGHT_1X_8D_2023_V1.nc"
 PATM_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "d511ed2cf2842d30e1300e06677f07ad"
-  URL: "https://zenodo.org/records/17730874/files/PATM_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/PATM_ERA5_1X_1H_2019_V1.nc"
 PFT_2X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "ad0fd204111ae1e45c81d24c6935dde1"
-  URL: "https://zenodo.org/records/17732092/files/PFT_2X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/PFT_2X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/PFT_2X_1Y_V1.nc"
 PPT_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "f4bc64e4a8c759ecb47ca41e9be126b0"
-  URL: "https://zenodo.org/records/17730874/files/PPT_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/PPT_ERA5_1X_1H_2019_V1.nc"
 RAD_LW_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "cc46e1e21ca2bb80d6be0d2563bbd1fe"
-  URL: "https://zenodo.org/records/17730874/files/RAD_LW_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/RAD_LW_ERA5_1X_1H_2019_V1.nc"
 RAD_SW_DIF_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "529cea349f01c7c7fe78b9fac16d4a8a"
-  URL: "https://zenodo.org/records/17730874/files/RAD_SW_DIF_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/RAD_SW_DIF_ERA5_1X_1H_2019_V1.nc"
 RAD_SW_DIR_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "a33b48ff06ad80e48bc0819c3b6eb984"
-  URL: "https://zenodo.org/records/17730874/files/RAD_SW_DIR_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/RAD_SW_DIR_ERA5_1X_1H_2019_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B1_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B1_1X_8D_2023_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B2_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B2_1X_8D_2023_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B3_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B3_1X_8D_2023_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B4_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B4_1X_8D_2023_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B5_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B5_1X_8D_2023_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B6_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B6_1X_8D_2023_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2000_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2001_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2002_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2003_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2004_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2005_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2006_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2007_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2008_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2009_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2010_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2011_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2012_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2013_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2014_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2015_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2016_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2017_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2018_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2019_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2020_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2021_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2022_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_1M_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_1M_2023_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2000_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2001_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2002_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2003_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2004_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2005_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2006_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2007_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2008_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2009_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2010_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2011_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2012_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2013_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2014_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2015_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2016_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2017_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2018_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2019_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2020_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2021_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2022_V1.nc"
+REFLECTANCE_MCD43A4_B7_1X_8D_2023_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/REFLECTANCE_MCD43A4_B7_1X_8D_2023_V1.nc"
+SA_1X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SA_1X_1Y_V1.nc"
+SA_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SA_2X_1Y_V1.nc"
 SC_2X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "15357be74ed42ff57ddf35a39092c466"
-  URL: "https://zenodo.org/records/17732092/files/SC_2X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SC_2X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/SC_2X_1Y_V1.nc"
+SIF_OCO2_757DC_5X_1M_2014_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2014_V3.nc"
+SIF_OCO2_757DC_5X_1M_2015_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2015_V3.nc"
+SIF_OCO2_757DC_5X_1M_2016_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2016_V3.nc"
+SIF_OCO2_757DC_5X_1M_2017_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2017_V3.nc"
+SIF_OCO2_757DC_5X_1M_2018_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2018_V3.nc"
+SIF_OCO2_757DC_5X_1M_2019_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2019_V3.nc"
+SIF_OCO2_757DC_5X_1M_2020_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757DC_5X_1M_2020_V3.nc"
+SIF_OCO2_757_5X_1M_2014_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2014_V3.nc"
+SIF_OCO2_757_5X_1M_2015_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2015_V3.nc"
+SIF_OCO2_757_5X_1M_2016_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2016_V3.nc"
+SIF_OCO2_757_5X_1M_2017_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2017_V3.nc"
+SIF_OCO2_757_5X_1M_2018_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2018_V3.nc"
+SIF_OCO2_757_5X_1M_2019_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2019_V3.nc"
+SIF_OCO2_757_5X_1M_2020_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_757_5X_1M_2020_V3.nc"
+SIF_OCO2_771DC_5X_1M_2014_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2014_V3.nc"
+SIF_OCO2_771DC_5X_1M_2015_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2015_V3.nc"
+SIF_OCO2_771DC_5X_1M_2016_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2016_V3.nc"
+SIF_OCO2_771DC_5X_1M_2017_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2017_V3.nc"
+SIF_OCO2_771DC_5X_1M_2018_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2018_V3.nc"
+SIF_OCO2_771DC_5X_1M_2019_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2019_V3.nc"
+SIF_OCO2_771DC_5X_1M_2020_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771DC_5X_1M_2020_V3.nc"
+SIF_OCO2_771_5X_1M_2014_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2014_V3.nc"
+SIF_OCO2_771_5X_1M_2015_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2015_V3.nc"
+SIF_OCO2_771_5X_1M_2016_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2016_V3.nc"
+SIF_OCO2_771_5X_1M_2017_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2017_V3.nc"
+SIF_OCO2_771_5X_1M_2018_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2018_V3.nc"
+SIF_OCO2_771_5X_1M_2019_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2019_V3.nc"
+SIF_OCO2_771_5X_1M_2020_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_OCO2_771_5X_1M_2020_V3.nc"
+SIF_TROPOMI_683DC_12X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_12X_1M_2018_V2.nc"
+SIF_TROPOMI_683DC_12X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_12X_1M_2019_V2.nc"
+SIF_TROPOMI_683DC_12X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_12X_1M_2020_V2.nc"
+SIF_TROPOMI_683DC_12X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_12X_8D_2018_V2.nc"
+SIF_TROPOMI_683DC_12X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_12X_8D_2019_V2.nc"
+SIF_TROPOMI_683DC_12X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_12X_8D_2020_V2.nc"
+SIF_TROPOMI_683DC_1X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_1X_1M_2018_V2.nc"
+SIF_TROPOMI_683DC_1X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_1X_1M_2019_V2.nc"
+SIF_TROPOMI_683DC_1X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_1X_1M_2020_V2.nc"
+SIF_TROPOMI_683DC_1X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_1X_8D_2018_V2.nc"
+SIF_TROPOMI_683DC_1X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_1X_8D_2019_V2.nc"
+SIF_TROPOMI_683DC_1X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_1X_8D_2020_V2.nc"
+SIF_TROPOMI_683DC_2X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_2X_1M_2018_V2.nc"
+SIF_TROPOMI_683DC_2X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_2X_1M_2019_V2.nc"
+SIF_TROPOMI_683DC_2X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_2X_1M_2020_V2.nc"
+SIF_TROPOMI_683DC_2X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_2X_8D_2018_V2.nc"
+SIF_TROPOMI_683DC_2X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_2X_8D_2019_V2.nc"
+SIF_TROPOMI_683DC_2X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_2X_8D_2020_V2.nc"
+SIF_TROPOMI_683DC_4X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_4X_1M_2018_V2.nc"
+SIF_TROPOMI_683DC_4X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_4X_1M_2019_V2.nc"
+SIF_TROPOMI_683DC_4X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_4X_1M_2020_V2.nc"
+SIF_TROPOMI_683DC_4X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_4X_8D_2018_V2.nc"
+SIF_TROPOMI_683DC_4X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_4X_8D_2019_V2.nc"
+SIF_TROPOMI_683DC_4X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_4X_8D_2020_V2.nc"
+SIF_TROPOMI_683DC_5X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_5X_1M_2018_V2.nc"
+SIF_TROPOMI_683DC_5X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_5X_1M_2019_V2.nc"
+SIF_TROPOMI_683DC_5X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_5X_1M_2020_V2.nc"
+SIF_TROPOMI_683DC_5X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_5X_8D_2018_V2.nc"
+SIF_TROPOMI_683DC_5X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_5X_8D_2019_V2.nc"
+SIF_TROPOMI_683DC_5X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683DC_5X_8D_2020_V2.nc"
+SIF_TROPOMI_683_12X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_12X_1M_2018_V2.nc"
+SIF_TROPOMI_683_12X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_12X_1M_2019_V2.nc"
+SIF_TROPOMI_683_12X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_12X_1M_2020_V2.nc"
+SIF_TROPOMI_683_12X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_12X_8D_2018_V2.nc"
+SIF_TROPOMI_683_12X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_12X_8D_2019_V2.nc"
+SIF_TROPOMI_683_12X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_12X_8D_2020_V2.nc"
+SIF_TROPOMI_683_1X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_1X_1M_2018_V2.nc"
+SIF_TROPOMI_683_1X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_1X_1M_2019_V2.nc"
+SIF_TROPOMI_683_1X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_1X_1M_2020_V2.nc"
+SIF_TROPOMI_683_1X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_1X_8D_2018_V2.nc"
+SIF_TROPOMI_683_1X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_1X_8D_2019_V2.nc"
+SIF_TROPOMI_683_1X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_1X_8D_2020_V2.nc"
+SIF_TROPOMI_683_2X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_2X_1M_2018_V2.nc"
+SIF_TROPOMI_683_2X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_2X_1M_2019_V2.nc"
+SIF_TROPOMI_683_2X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_2X_1M_2020_V2.nc"
+SIF_TROPOMI_683_2X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_2X_8D_2018_V2.nc"
+SIF_TROPOMI_683_2X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_2X_8D_2019_V2.nc"
+SIF_TROPOMI_683_2X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_2X_8D_2020_V2.nc"
+SIF_TROPOMI_683_4X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_4X_1M_2018_V2.nc"
+SIF_TROPOMI_683_4X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_4X_1M_2019_V2.nc"
+SIF_TROPOMI_683_4X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_4X_1M_2020_V2.nc"
+SIF_TROPOMI_683_4X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_4X_8D_2018_V2.nc"
+SIF_TROPOMI_683_4X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_4X_8D_2019_V2.nc"
+SIF_TROPOMI_683_4X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_4X_8D_2020_V2.nc"
+SIF_TROPOMI_683_5X_1M_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_5X_1M_2018_V2.nc"
+SIF_TROPOMI_683_5X_1M_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_5X_1M_2019_V2.nc"
+SIF_TROPOMI_683_5X_1M_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_5X_1M_2020_V2.nc"
+SIF_TROPOMI_683_5X_8D_2018_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_5X_8D_2018_V2.nc"
+SIF_TROPOMI_683_5X_8D_2019_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_5X_8D_2019_V2.nc"
+SIF_TROPOMI_683_5X_8D_2020_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_683_5X_8D_2020_V2.nc"
+SIF_TROPOMI_740DC_12X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_1M_2018_V1.nc"
+SIF_TROPOMI_740DC_12X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_1M_2019_V1.nc"
+SIF_TROPOMI_740DC_12X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_1M_2020_V1.nc"
+SIF_TROPOMI_740DC_12X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_1M_2021_V1.nc"
+SIF_TROPOMI_740DC_12X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_1M_2022_V1.nc"
+SIF_TROPOMI_740DC_12X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_8D_2018_V1.nc"
+SIF_TROPOMI_740DC_12X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_8D_2019_V1.nc"
+SIF_TROPOMI_740DC_12X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_8D_2020_V1.nc"
+SIF_TROPOMI_740DC_12X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_8D_2021_V1.nc"
+SIF_TROPOMI_740DC_12X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_12X_8D_2022_V1.nc"
+SIF_TROPOMI_740DC_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_1M_2018_V1.nc"
+SIF_TROPOMI_740DC_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_1M_2019_V1.nc"
+SIF_TROPOMI_740DC_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_1M_2020_V1.nc"
+SIF_TROPOMI_740DC_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_1M_2021_V1.nc"
+SIF_TROPOMI_740DC_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_1M_2022_V1.nc"
+SIF_TROPOMI_740DC_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_8D_2018_V1.nc"
+SIF_TROPOMI_740DC_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_8D_2019_V1.nc"
+SIF_TROPOMI_740DC_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_8D_2020_V1.nc"
+SIF_TROPOMI_740DC_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_8D_2021_V1.nc"
+SIF_TROPOMI_740DC_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_1X_8D_2022_V1.nc"
+SIF_TROPOMI_740DC_2X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_1M_2018_V1.nc"
+SIF_TROPOMI_740DC_2X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_1M_2019_V1.nc"
+SIF_TROPOMI_740DC_2X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_1M_2020_V1.nc"
+SIF_TROPOMI_740DC_2X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_1M_2021_V1.nc"
+SIF_TROPOMI_740DC_2X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_1M_2022_V1.nc"
+SIF_TROPOMI_740DC_2X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_8D_2018_V1.nc"
+SIF_TROPOMI_740DC_2X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_8D_2019_V1.nc"
+SIF_TROPOMI_740DC_2X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_8D_2020_V1.nc"
+SIF_TROPOMI_740DC_2X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_8D_2021_V1.nc"
+SIF_TROPOMI_740DC_2X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_2X_8D_2022_V1.nc"
+SIF_TROPOMI_740DC_4X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_1M_2018_V1.nc"
+SIF_TROPOMI_740DC_4X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_1M_2019_V1.nc"
+SIF_TROPOMI_740DC_4X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_1M_2020_V1.nc"
+SIF_TROPOMI_740DC_4X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_1M_2021_V1.nc"
+SIF_TROPOMI_740DC_4X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_1M_2022_V1.nc"
+SIF_TROPOMI_740DC_4X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_8D_2018_V1.nc"
+SIF_TROPOMI_740DC_4X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_8D_2019_V1.nc"
+SIF_TROPOMI_740DC_4X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_8D_2020_V1.nc"
+SIF_TROPOMI_740DC_4X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_8D_2021_V1.nc"
+SIF_TROPOMI_740DC_4X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_4X_8D_2022_V1.nc"
+SIF_TROPOMI_740DC_5X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_1M_2018_V1.nc"
+SIF_TROPOMI_740DC_5X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_1M_2019_V1.nc"
+SIF_TROPOMI_740DC_5X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_1M_2020_V1.nc"
+SIF_TROPOMI_740DC_5X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_1M_2021_V1.nc"
+SIF_TROPOMI_740DC_5X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_1M_2022_V1.nc"
+SIF_TROPOMI_740DC_5X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_8D_2018_V1.nc"
+SIF_TROPOMI_740DC_5X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_8D_2019_V1.nc"
+SIF_TROPOMI_740DC_5X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_8D_2020_V1.nc"
+SIF_TROPOMI_740DC_5X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_8D_2021_V1.nc"
+SIF_TROPOMI_740DC_5X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740DC_5X_8D_2022_V1.nc"
+SIF_TROPOMI_740_12X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_1M_2018_V1.nc"
+SIF_TROPOMI_740_12X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_1M_2019_V1.nc"
+SIF_TROPOMI_740_12X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_1M_2020_V1.nc"
+SIF_TROPOMI_740_12X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_1M_2021_V1.nc"
+SIF_TROPOMI_740_12X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_1M_2022_V1.nc"
+SIF_TROPOMI_740_12X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_8D_2018_V1.nc"
+SIF_TROPOMI_740_12X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_8D_2019_V1.nc"
+SIF_TROPOMI_740_12X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_8D_2020_V1.nc"
+SIF_TROPOMI_740_12X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_8D_2021_V1.nc"
+SIF_TROPOMI_740_12X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_12X_8D_2022_V1.nc"
+SIF_TROPOMI_740_1X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_1M_2018_V1.nc"
+SIF_TROPOMI_740_1X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_1M_2019_V1.nc"
+SIF_TROPOMI_740_1X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_1M_2020_V1.nc"
+SIF_TROPOMI_740_1X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_1M_2021_V1.nc"
+SIF_TROPOMI_740_1X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_1M_2022_V1.nc"
+SIF_TROPOMI_740_1X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_8D_2018_V1.nc"
+SIF_TROPOMI_740_1X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_8D_2019_V1.nc"
+SIF_TROPOMI_740_1X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_8D_2020_V1.nc"
+SIF_TROPOMI_740_1X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_8D_2021_V1.nc"
+SIF_TROPOMI_740_1X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_1X_8D_2022_V1.nc"
+SIF_TROPOMI_740_2X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_1M_2018_V1.nc"
+SIF_TROPOMI_740_2X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_1M_2019_V1.nc"
+SIF_TROPOMI_740_2X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_1M_2020_V1.nc"
+SIF_TROPOMI_740_2X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_1M_2021_V1.nc"
+SIF_TROPOMI_740_2X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_1M_2022_V1.nc"
+SIF_TROPOMI_740_2X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_8D_2018_V1.nc"
+SIF_TROPOMI_740_2X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_8D_2019_V1.nc"
+SIF_TROPOMI_740_2X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_8D_2020_V1.nc"
+SIF_TROPOMI_740_2X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_8D_2021_V1.nc"
+SIF_TROPOMI_740_2X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_2X_8D_2022_V1.nc"
+SIF_TROPOMI_740_4X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_1M_2018_V1.nc"
+SIF_TROPOMI_740_4X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_1M_2019_V1.nc"
+SIF_TROPOMI_740_4X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_1M_2020_V1.nc"
+SIF_TROPOMI_740_4X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_1M_2021_V1.nc"
+SIF_TROPOMI_740_4X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_1M_2022_V1.nc"
+SIF_TROPOMI_740_4X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_8D_2018_V1.nc"
+SIF_TROPOMI_740_4X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_8D_2019_V1.nc"
+SIF_TROPOMI_740_4X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_8D_2020_V1.nc"
+SIF_TROPOMI_740_4X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_8D_2021_V1.nc"
+SIF_TROPOMI_740_4X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_4X_8D_2022_V1.nc"
+SIF_TROPOMI_740_5X_1M_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_1M_2018_V1.nc"
+SIF_TROPOMI_740_5X_1M_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_1M_2019_V1.nc"
+SIF_TROPOMI_740_5X_1M_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_1M_2020_V1.nc"
+SIF_TROPOMI_740_5X_1M_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_1M_2021_V1.nc"
+SIF_TROPOMI_740_5X_1M_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_1M_2022_V1.nc"
+SIF_TROPOMI_740_5X_8D_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_8D_2018_V1.nc"
+SIF_TROPOMI_740_5X_8D_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_8D_2019_V1.nc"
+SIF_TROPOMI_740_5X_8D_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_8D_2020_V1.nc"
+SIF_TROPOMI_740_5X_8D_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_8D_2021_V1.nc"
+SIF_TROPOMI_740_5X_8D_2022_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIF_TROPOMI_740_5X_8D_2022_V1.nc"
+SIL_20X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SIL_20X_1Y_V1.nc"
+SLA_12X_1Y_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SLA_12X_1Y_V3.nc"
 SLA_2X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "0b02c8cdc4060532b7ce729ed2881024"
-  URL: "https://zenodo.org/records/17732092/files/SLA_2X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SLA_2X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/SLA_2X_1Y_V1.nc"
+SLA_2X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SLA_2X_1Y_V2.nc"
+SLA_36X_1Y_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SLA_36X_1Y_V3.nc"
+SOIL_KSAT_100X_1Y_V2:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_KSAT_100X_1Y_V2.nc"
+SOIL_SWCR_120X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_SWCR_120X_1Y_V1.nc"
 SOIL_SWCR_12X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "1f45ddac2d2808bad616d48e5c9fdf06"
-  URL: "https://zenodo.org/records/17732092/files/SOIL_SWCR_12X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_SWCR_12X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/SOIL_SWCR_12X_1Y_V1.nc"
+SOIL_SWCS_120X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_SWCS_120X_1Y_V1.nc"
 SOIL_SWCS_12X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "f4ed22033bb1822cb196413593ca43d1"
-  URL: "https://zenodo.org/records/17732092/files/SOIL_SWCS_12X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_SWCS_12X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/SOIL_SWCS_12X_1Y_V1.nc"
+SOIL_TEXTURE_1X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_TEXTURE_1X_1Y_V1.nc"
+SOIL_TEXTURE_4X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_TEXTURE_4X_1Y_V1.nc"
+SOIL_VGA_120X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_VGA_120X_1Y_V1.nc"
 SOIL_VGA_12X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "6a347fd46d3bcb299fa8b1a24d6796f9"
-  URL: "https://zenodo.org/records/17732092/files/SOIL_VGA_12X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_VGA_12X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/SOIL_VGA_12X_1Y_V1.nc"
+SOIL_VGN_120X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_VGN_120X_1Y_V1.nc"
 SOIL_VGN_12X_1Y_V1:
-  PATH: "public/old-gm1-gm2"
-  SHA: "2704bebcb4dfabe4b4faa73c5ad61fe9"
-  URL: "https://zenodo.org/records/17732092/files/SOIL_VGN_12X_1Y_V1.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_VGN_12X_1Y_V1.nc"
+    - "https://zenodo.org/records/17732092/files/SOIL_VGN_12X_1Y_V1.nc"
 TAIR_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "65860854f35607f0d69415e50e818ebb"
-  URL: "https://zenodo.org/records/17730874/files/TAIR_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/TAIR_ERA5_1X_1H_2019_V1.nc"
+TD_120X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/TD_120X_1Y_V1.nc"
+TD_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/TD_2X_1Y_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2000_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2000_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2001_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2001_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2002_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2002_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2003_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2003_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2004_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2004_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2005_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2005_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2006_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2006_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2007_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2007_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2008_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2008_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2009_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2009_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2010_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2010_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2011_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2011_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2012_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2012_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2013_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2013_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2014_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2014_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2015_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2015_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2016_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2016_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2017_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2017_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2018_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2018_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2019_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2019_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2020_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2020_V1.nc"
+VCF_MODIS_MOD44B_2X_1Y_2021_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCF_MODIS_MOD44B_2X_1Y_2021_V1.nc"
+VCMAX_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCMAX_2X_1Y_V1.nc"
 VCMAX_2X_1Y_V2:
-  PATH: "public/old-gm1-gm2"
-  SHA: "2c8d08248eb018c1609102c506f44b07"
-  URL: "https://zenodo.org/records/17732092/files/VCMAX_2X_1Y_V2.nc"
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/VCMAX_2X_1Y_V2.nc"
+    - "https://zenodo.org/records/17732092/files/VCMAX_2X_1Y_V2.nc"
+VCMAX_CESM_1X_1M_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCMAX_CESM_1X_1M_V3.nc"
+VCMAX_CESM_LUNA_1X_1M_V3:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/VCMAX_CESM_LUNA_1X_1M_V3.nc"
 VPD_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "dcf945ef3bd6aee5794da343d7acac88"
-  URL: "https://zenodo.org/records/17730874/files/VPD_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/VPD_ERA5_1X_1H_2019_V1.nc"
+WD_2X_1Y_V1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/v0/WD_2X_1Y_V1.nc"
 WIND_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
-  SHA: "c49dadc81010aee84bbe1edd8e42edc3"
-  URL: "https://zenodo.org/records/17730874/files/WIND_ERA5_1X_1H_2019_V1.nc"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2019_V1.nc"
+    - "https://zenodo.org/records/17730874/files/WIND_ERA5_1X_1H_2019_V1.nc"

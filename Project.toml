@@ -4,6 +4,8 @@ version = "0.1.0"
 authors = ["Yujie Wang"]
 
 [deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FTPClient = "01fcc997-4f28-56b8-8a06-30002c134abb"
 GriddingMachine = "f20cf718-bf4d-4727-bc8f-485b1f283ac6"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 NetcdfIO = "6a36f34d-89cf-423a-87c4-84549e82f670"
@@ -22,5 +24,7 @@ NetcdfIO = {rev = "wyujie", url = "https://github.com/Yujie-W/NetcdfIO.jl.git"}
 PkgUtility = {rev = "wyujie", url = "https://github.com/Yujie-W/PkgUtility.jl.git"}
 
 [compat]
+Dates = "1.11.0"
+FTPClient = "1.2.1"
 HTTP = "1.10.19"
 PkgUtility = "0.3.1"

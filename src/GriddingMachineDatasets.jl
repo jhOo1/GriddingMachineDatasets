@@ -1,5 +1,6 @@
 module GriddingMachineDatasets
 
+using FTPClient
 using HTTP
 using Revise
 
@@ -8,7 +9,7 @@ using NetcdfIO: append_nc!, dimname_nc, read_nc, save_nc!, size_nc, varname_nc
 using OrderedCollections: OrderedDict
 using PkgUtility.ArtifactTools: read_library
 using PkgUtility.MathTools: nanmax, nanmean, nanmin, regrid
-using GriddingMachine.Collector: download_artifact!
+using PkgUtility.PrettyDisplay: pretty_display!
 
 
 # GLOABL VARIABLES
@@ -37,6 +38,9 @@ include("preparation/pipeline.jl");
 #          - land only (land)
 include("deployment/1-verification.jl");
 include("deployment/2-upload.jl");
+
+# pipeline to manage the artifact library
+include("library/1-verify-urls.jl");
 
 
 end # module
