@@ -1,0 +1,36 @@
+# File name patterns
+# Note that if YYYY does not exist, then it is not a duplicated task
+# These keys are mandatory:
+#     - PATTERN
+#     - PREFIX
+#     - NX
+#     - MT
+#     - VV
+FILE:
+  PATTERN : "PREFIX_NX_MT_VV.nc"
+  PREFIX  : ["SLA"]
+  NX      : [2]
+  MT      : ["1Y"]
+  VV      : ["V1"]
+
+# Folder structure for input and output
+FOLDER:
+  ORIGINAL    : "v0"
+  REPROCESSED : "v0"
+
+# Data configuration
+# Note that the labels should match the PREFIX in FILE section
+DATA:
+  ABOUT          : "This dataset is generated for specific leaf area, leaf mass per area is the reverse, SLA from Butler E. et al.(2017) (https://doi.org/10.1073/pnas.1708984114)"
+  CHANGE_LOGS    : []
+  GAPFILL        : mean
+  LABEL          : ["data"]
+  LIMITS         : [0, 1]
+  REV_LAT        : False
+  UNIT           : "m² kg⁻¹"
+  VERIFY_ONCE    : True
+
+# GriddingMachine configuration
+GRIDDINGMACHINE:
+  TAG : SLA
+  REVISION : "R1"

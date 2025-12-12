@@ -82,17 +82,22 @@ read_input(filepath::String, varname::String, dict::Union{Dict, OrderedDict}) = 
         gapfill = FillMethodConstant(gapfill);
     elseif uppercase(gapfill) == "MEAN"
         FillMethodMean();
+    elseif uppercase(gapfill) == "NO_LAND_NAN"
+        FillMethodNoLandNaN();
+    elseif uppercase(gapfill) == "NO_NAN"
+        FillMethodNoNaN();
+    elseif uppercase(gapfill) == "KEEP_AS_IS"
+        FillMethodKeepAsIs();
+    elseif uppercase(gapfill) == "INT_NAN_TO_1"
+        FillMethodIntNaNTo1();
     else
         error("Unsupported GAPFILL method: $gapfill");
     end;
+
     if size(data_d, 1) in [360, 720, 1440]
         land_mask = regrid(read_dataset("LM_4X_1Y_V1"), size(data_d, 1) ÷ 360);
-        # land_mask = regrid(read_nc(download_artifact!("LM_4X_1Y_V1"), "data"), size(data_d, 1) ÷ 360);
-        n_gapfill = fill_missing_values!(data_d, land_mask, mthd);
+        n_gapfill = fill_missing_values!(data_d, land_mask, mthd, dict);
         @info "Gaps filled" n_gapfill;
-        if n_gapfill > 0
-            push!(dict["CHANGE_LOGS_TO_WRITE"], "Filled $n_gapfill missing values based on the specified gapfill method.");
-        end;
     else
         @info "Resolution not meeting our requirements for gapfilling. Skipping...";
     end;

@@ -23,7 +23,7 @@ GRIDDING_MACHINE_HOME = joinpath(homedir(), "GriddingMachine");
 #     3. saving the processed data to a netCDF file
 #     4. functions related to the tagging system
 include("preparation/0-gapfill.jl");
-include("preparation/0-geotiff.jl");
+# include("preparation/0-geotiff.jl");
 include("preparation/1-read.jl");
 include("preparation/2-verify.jl");
 include("preparation/3-save.jl");

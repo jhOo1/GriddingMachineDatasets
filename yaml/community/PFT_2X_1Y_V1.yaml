@@ -1,0 +1,36 @@
+# File name patterns
+# Note that if YYYY does not exist, then it is not a duplicated task
+# These keys are mandatory:
+#     - PATTERN
+#     - PREFIX
+#     - NX
+#     - MT
+#     - VV
+FILE:
+  PATTERN : "PREFIX_NX_MT_VV.nc"
+  PREFIX  : ["PFT"]
+  NX      : [2]
+  MT      : ["1Y"]
+  VV      : ["V1"]
+
+# Folder structure for input and output
+FOLDER:
+  ORIGINAL    : "v0"
+  REPROCESSED : "v0"
+
+# Data configuration
+# Note that the labels should match the PREFIX in FILE section
+DATA:
+  ABOUT          : "PFT from Lawrence and Chase.(2007) (https://doi.org/10.1029/2006JG000168)"
+  CHANGE_LOGS    : ["The original data was from 0 to 360 in longitude, and we converted to from -180 to 180", "The original data was in %, and we made it a ratio from 0 to 1", "There was no uncertainty included, and we added an empty matrix filled with NaN"]
+  GAPFILL        : NO_LAND_NAN
+  LABEL          : ["data"]
+  LIMITS         : [0, 1]
+  REV_LAT        : False
+  UNIT           : "-"
+  VERIFY_ONCE    : True
+
+# GriddingMachine configuration
+GRIDDINGMACHINE:
+  TAG : PFT
+  REVISION : "R1"
