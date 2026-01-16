@@ -15,6 +15,11 @@ CHL_2X_7D_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CHL_2X_7D_V1.nc"
     - "https://zenodo.org/records/17732092/files/CHL_2X_7D_V1.nc"
+CHL_2X_7D_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/CHL_2X_7D_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/CHL_2X_7D_V1_R1.nc"
 CHL_2X_7D_V2:
   PATH: "public/v0"
   URL:
@@ -41,11 +46,21 @@ CI_2X_1M_V3:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CI_2X_1M_V3.nc"
     - "https://zenodo.org/records/17732092/files/CI_2X_1M_V3.nc"
+CI_2X_1M_V3_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/CI_2X_1M_V3_R1.nc"
+    - "https://zenodo.org/records/17873650/files/CI_2X_1M_V3_R1.nc"
 CI_2X_1Y_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CI_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/CI_2X_1Y_V1.nc"
+CI_2X_1Y_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/CI_2X_1Y_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/CI_2X_1Y_V1_R1.nc"
 CI_2X_1Y_V2:
   PATH: "public/v0"
   URL:
@@ -151,6 +166,11 @@ ELEV_4X_1Y_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/ELEV_4X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/ELEV_4X_1Y_V1.nc"
+ELEV_4X_1Y_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/ELEV_4X_1Y_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/ELEV_4X_1Y_V1_R1.nc"
 GPP_MPI_RS_2X_1M_2001_V1:
   PATH: "public/v0"
   URL:
@@ -888,106 +908,211 @@ LAI_MODIS_2X_8D_2000_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2000_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2000_V1.nc"
+LAI_MODIS_2X_8D_2000_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2000_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2000_V1_R1.nc"
 LAI_MODIS_2X_8D_2001_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2001_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2001_V1.nc"
+LAI_MODIS_2X_8D_2001_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2001_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2001_V1_R1.nc"
 LAI_MODIS_2X_8D_2002_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2002_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2002_V1.nc"
+LAI_MODIS_2X_8D_2002_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2002_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2002_V1_R1.nc"
 LAI_MODIS_2X_8D_2003_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2003_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2003_V1.nc"
+LAI_MODIS_2X_8D_2003_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2003_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2003_V1_R1.nc"
 LAI_MODIS_2X_8D_2004_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2004_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2004_V1.nc"
+LAI_MODIS_2X_8D_2004_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2004_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2004_V1_R1.nc"
 LAI_MODIS_2X_8D_2005_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2005_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2005_V1.nc"
+LAI_MODIS_2X_8D_2005_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2005_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2005_V1_R1.nc"
 LAI_MODIS_2X_8D_2006_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2006_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2006_V1.nc"
+LAI_MODIS_2X_8D_2006_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2006_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2006_V1_R1.nc"
 LAI_MODIS_2X_8D_2007_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2007_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2007_V1.nc"
+LAI_MODIS_2X_8D_2007_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2007_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2007_V1_R1.nc"
 LAI_MODIS_2X_8D_2008_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2008_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2008_V1.nc"
+LAI_MODIS_2X_8D_2008_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2008_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2008_V1_R1.nc"
 LAI_MODIS_2X_8D_2009_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2009_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2009_V1.nc"
+LAI_MODIS_2X_8D_2009_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2009_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2009_V1_R1.nc"
 LAI_MODIS_2X_8D_2010_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2010_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2010_V1.nc"
+LAI_MODIS_2X_8D_2010_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2010_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2010_V1_R1.nc"
 LAI_MODIS_2X_8D_2011_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2011_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2011_V1.nc"
+LAI_MODIS_2X_8D_2011_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2011_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2011_V1_R1.nc"
 LAI_MODIS_2X_8D_2012_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2012_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2012_V1.nc"
+LAI_MODIS_2X_8D_2012_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2012_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2012_V1_R1.nc"
 LAI_MODIS_2X_8D_2013_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2013_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2013_V1.nc"
+LAI_MODIS_2X_8D_2013_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2013_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2013_V1_R1.nc"
 LAI_MODIS_2X_8D_2014_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2014_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2014_V1.nc"
+LAI_MODIS_2X_8D_2014_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2014_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2014_V1_R1.nc"
 LAI_MODIS_2X_8D_2015_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2015_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2015_V1.nc"
+LAI_MODIS_2X_8D_2015_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2015_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2015_V1_R1.nc"
 LAI_MODIS_2X_8D_2016_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2016_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2016_V1.nc"
+LAI_MODIS_2X_8D_2016_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2016_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2016_V1_R1.nc"
 LAI_MODIS_2X_8D_2017_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2017_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2017_V1.nc"
+LAI_MODIS_2X_8D_2017_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2017_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2017_V1_R1.nc"
 LAI_MODIS_2X_8D_2018_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2018_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2018_V1.nc"
+LAI_MODIS_2X_8D_2018_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2018_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2018_V1_R1.nc"
 LAI_MODIS_2X_8D_2019_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2019_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2019_V1.nc"
+LAI_MODIS_2X_8D_2019_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2019_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2019_V1_R1.nc"
 LAI_MODIS_2X_8D_2020_V1:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2020_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2020_V1.nc"
+LAI_MODIS_2X_8D_2020_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/LAI_MODIS_2X_8D_2020_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2020_V1_R1.nc"
 LDMC_12X_1Y_V1:
   PATH: "public/v0"
   URL:
@@ -1571,6 +1696,11 @@ PFT_2X_1Y_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/PFT_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/PFT_2X_1Y_V1.nc"
+PFT_2X_1Y_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/PFT_2X_1Y_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/PFT_2X_1Y_V1_R1.nc"
 PPT_ERA5_1X_1H_2019_V1:
   PATH: "public/wd1"
   URL:
@@ -2948,6 +3078,11 @@ SC_2X_1Y_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SC_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SC_2X_1Y_V1.nc"
+SC_2X_1Y_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/SC_2X_1Y_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/SC_2X_1Y_V1_R1.nc"
 SIF_OCO2_757DC_5X_1M_2014_V3:
   PATH: "public/v0"
   URL:
@@ -3713,6 +3848,11 @@ SLA_2X_1Y_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SLA_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SLA_2X_1Y_V1.nc"
+SLA_2X_1Y_V1_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/SLA_2X_1Y_V1_R1.nc"
+    - "https://zenodo.org/records/17873650/files/SLA_2X_1Y_V1_R1.nc"
 SLA_2X_1Y_V2:
   PATH: "public/v0"
   URL:
@@ -3721,6 +3861,11 @@ SLA_36X_1Y_V3:
   PATH: "public/v0"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SLA_36X_1Y_V3.nc"
+SLA_VCMAX_2X_1Y_V2_R1:
+  PATH: "public/v0"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/SLA_VCMAX_2X_1Y_V2_R1.nc"
+    - "https://zenodo.org/records/17873650/files/SLA_VCMAX_2X_1Y_V2_R1.nc"
 SOIL_KSAT_100X_1Y_V2:
   PATH: "public/v0"
   URL:
