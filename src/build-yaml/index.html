@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YAML 配置文件生成器</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.net/picocss/2.0.6/pico.min.css">
+    <style>
+        :root {
+            --pico-spacing: 0.75rem;
+            --pico-form-element-spacing-vertical: 0.3rem;
+            --pico-form-element-spacing-horizontal: 0.5rem;
+            --pico-typography-spacing-vertical: 0.5rem;
+            --pico-font-size: 0.9rem;
+        }
+
+        body { padding-top: 1rem; padding-bottom: 2rem; }
+        h2 { font-size: 1.4rem; margin-bottom: 1rem; }
+        
+        article { padding: 1rem; margin-bottom: 0.75rem; }
+        article > header { 
+            padding: 0.4rem 1rem; 
+            margin: -1rem -1rem 0.5rem -1rem; 
+            font-size: 0.95em;
+        }
+        
+        .grid { margin-bottom: 0.2rem; gap: 1rem; } 
+        label { margin-bottom: 0.1rem; font-weight: 500; }
+        input, textarea { margin-bottom: 0.4rem !important; font-size: 0.9rem; }
+        
+        .optional { font-size: 0.8em; color: #888; font-weight: normal; }
+        
+        button { padding: 0.3rem 1rem; font-size: 0.9rem; margin-top: 0.5rem; }
+
+        #previewContainer { display: none; margin-top: 1rem; }
+        pre { 
+            background: #f4f5f6; 
+            padding: 0.75rem; 
+            border-radius: 6px; 
+            overflow-x: auto; 
+            font-size: 0.85rem; 
+            margin-bottom: 0; 
+        }
+        @media (prefers-color-scheme: dark) {
+            pre { background: #181c25; color: #a2afb9; }
+        }
+    </style>
+</head>
+<body class="container">
+    <main>
+        <h2>生成 YAML 配置文件</h2>
+        <form id="yamlForm">
+            <article>
+                <header><strong>FILE (文件设置)</strong></header>
+                <div class="grid">
+                    <label>PATTERN <input type="text" id="PATTERN" value="PREFIX_NX_MT_VV.nc" required></label>
+                    <label>YYYY <span class="optional">(可选，逗号分隔)</span>
+                        <input type="text" id="YYYY" value="">
+                    </label>
+                </div>
+                <div class="grid">
+                    <label>PREFIX (逗号分隔) <input type="text" id="PREFIX" value="LMA" required></label>
+                    <label>NX (逗号分隔整数) <input type="text" id="NX" value="2" required></label>
+                </div>
+                <div class="grid">
+                    <label>MT (逗号分隔) <input type="text" id="MT" value="1Y" required></label>
+                    <label>VV (逗号分隔) <input type="text" id="VV" value="V1" required></label>
+                </div>
+            </article>
+
+            <article>
+                <header><strong>FOLDER (目录结构)</strong></header>
+                <div class="grid">
+                    <label>ORIGINAL <input type="text" id="ORIGINAL" value="LMA" required></label>
+                    <label>REPROCESSED <input type="text" id="REPROCESSED" value="LMA" required></label>
+                    <label>TARBALL <input type="text" id="TARBALL" value="LMA" required></label>
+                </div>
+            </article>
+
+            <article>
+                <header><strong>DATA (数据配置)</strong></header>
+                <div class="grid">
+                    <label>ABOUT <input type="text" id="ABOUT" value="LMA from Butler et al. (2017) (https://doi.org/10.1073/pnas.1708984114)" required></label>
+                    <label>UNIT <input type="text" id="UNIT" value="kg m⁻²" required></label>
+                </div>
+                <label>CHANGE_LOGS (每行一条) 
+                    <textarea id="CHANGE_LOGS" rows="2" required>Extracted from Dong et al. (2022) (DOI: 10.1111/geb.13680)</textarea>
+                </label>
+                <div class="grid">
+                    <label>LABEL (逗号分隔) <input type="text" id="LABEL" value="LMA" required></label>
+                    <label>LIMITS (逗号分隔数字) <input type="text" id="LIMITS" value="0, 1" required></label>
+                </div>
+                
+                <div class="grid">
+                    <label>SCALING <span class="optional">(可选)</span> 
+                        <input type="text" id="SCALING" value="">
+                    </label>
+                    <label>SCALING_FACTOR <span class="optional">(可选)</span> 
+                        <input type="text" id="SCALING_FACTOR" value="">
+                    </label>
+                </div>
+
+                <div class="grid">
+                    <label style="display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" id="REV_LAT" checked style="margin-bottom:0 !important;"> REV_LAT
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" id="VERIFY_ONCE" checked style="margin-bottom:0 !important;"> VERIFY_ONCE
+                    </label>
+                </div>
+            </article>
+
+            <article>
+                <header><strong>GRIDDINGMACHINE</strong></header>
+                <label>TAG (将作为文件名) <input type="text" id="TAG" value="LMA" required></label>
+            </article>
+
+            <div class="grid">
+                <button type="button" class="secondary" id="btnPreview">预览 YAML</button>
+                <button type="button" id="btnSave">保存 YAML</button>
+            </div>
+        </form>
+
+        <article id="previewContainer">
+            <header><strong>👀 YAML 预览</strong></header>
+            <pre><code id="previewCode"></code></pre>
+        </article>
+    </main>
+
+    <script>
+        function getPayload() {
+            const parseComma = (str) => str.split(',').map(s => s.trim()).filter(s => s.length > 0);
+            const parseIntArray = (str) => parseComma(str).map(s => parseInt(s));
+            const parseFloatArray = (str) => parseComma(str).map(s => parseFloat(s));
+            const parseLines = (str) => str.split('\n').map(s => s.trim()).filter(s => s.length > 0);
+
+            const formElement = document.getElementById('yamlForm');
+            if(!formElement.checkValidity()) {
+                formElement.reportValidity();
+                return null;
+            }
+
+            const payload = {
+                PATTERN: document.getElementById('PATTERN').value,
+                PREFIX: parseComma(document.getElementById('PREFIX').value),
+                NX: parseIntArray(document.getElementById('NX').value),
+                MT: parseComma(document.getElementById('MT').value),
+                VV: parseComma(document.getElementById('VV').value),
+                ORIGINAL: document.getElementById('ORIGINAL').value,
+                REPROCESSED: document.getElementById('REPROCESSED').value,
+                TARBALL: document.getElementById('TARBALL').value,
+                ABOUT: document.getElementById('ABOUT').value,
+                CHANGE_LOGS: parseLines(document.getElementById('CHANGE_LOGS').value),
+                LABEL: parseComma(document.getElementById('LABEL').value),
+                LIMITS: parseFloatArray(document.getElementById('LIMITS').value),
+                REV_LAT: document.getElementById('REV_LAT').checked,
+                UNIT: document.getElementById('UNIT').value,
+                VERIFY_ONCE: document.getElementById('VERIFY_ONCE').checked,
+                TAG: document.getElementById('TAG').value
+            };
+
+            const yyyyVal = document.getElementById('YYYY').value.trim();
+            if (yyyyVal) payload.YYYY = parseIntArray(yyyyVal);
+
+            const scalingVal = document.getElementById('SCALING').value.trim();
+            if (scalingVal) payload.SCALING = scalingVal;
+            
+            const sfVal = document.getElementById('SCALING_FACTOR').value.trim();
+            if (sfVal) payload.SCALING_FACTOR = parseFloatArray(sfVal);
+
+            return payload;
+        }
+
+        document.getElementById('btnPreview').addEventListener('click', function() {
+            const payload = getPayload();
+            if (!payload) return;
+
+            fetch('/preview', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('previewContainer').style.display = 'block';
+                document.getElementById('previewCode').textContent = data.yaml;
+                document.getElementById('previewContainer').scrollIntoView({ behavior: 'smooth' });
+            })
+            .catch(err => alert('预览失败: ' + err));
+        });
+
+        document.getElementById('btnSave').addEventListener('click', function() {
+            const payload = getPayload();
+            if (!payload) return;
+
+            fetch('/save', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('previewContainer').style.display = 'block';
+                document.getElementById('previewCode').textContent = data.yaml;
+                alert(data.message);
+            })
+            .catch(err => alert('保存失败: ' + err));
+        });
+    </script>
+</body>
+</html>
