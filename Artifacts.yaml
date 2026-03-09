@@ -4046,3 +4046,924 @@ WIND_ERA5_1X_1H_2019_V1:
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2019_V1.nc"
     - "https://zenodo.org/records/17730874/files/WIND_ERA5_1X_1H_2019_V1.nc"
+
+PATM_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2000_V1.nc"
+
+PPT_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2000_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2000_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2000_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2000_V1.nc"
+
+TAIR_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2000_V1.nc"
+
+VPD_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2000_V1.nc"
+
+WIND_ERA5_1X_1H_2000_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2000_V1.nc"
+
+PATM_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2001_V1.nc"
+
+PPT_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2001_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2001_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2001_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2001_V1.nc"
+
+TAIR_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2001_V1.nc"
+
+VPD_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2001_V1.nc"
+
+WIND_ERA5_1X_1H_2001_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2001_V1.nc"
+
+PATM_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2002_V1.nc"
+
+PPT_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2002_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2002_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2002_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2002_V1.nc"
+
+TAIR_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2002_V1.nc"
+
+VPD_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2002_V1.nc"
+
+WIND_ERA5_1X_1H_2002_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2002_V1.nc"
+
+PATM_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2003_V1.nc"
+
+PPT_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2003_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2003_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2003_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2003_V1.nc"
+
+TAIR_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2003_V1.nc"
+
+VPD_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2003_V1.nc"
+
+WIND_ERA5_1X_1H_2003_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2003_V1.nc"
+
+PATM_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2004_V1.nc"
+
+PPT_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2004_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2004_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2004_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2004_V1.nc"
+
+TAIR_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2004_V1.nc"
+
+VPD_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2004_V1.nc"
+
+WIND_ERA5_1X_1H_2004_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2004_V1.nc"
+
+PATM_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2005_V1.nc"
+
+PPT_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2005_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2005_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2005_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2005_V1.nc"
+
+TAIR_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2005_V1.nc"
+
+VPD_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2005_V1.nc"
+
+WIND_ERA5_1X_1H_2005_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2005_V1.nc"
+
+PATM_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2006_V1.nc"
+
+PPT_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2006_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2006_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2006_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2006_V1.nc"
+
+TAIR_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2006_V1.nc"
+
+VPD_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2006_V1.nc"
+
+WIND_ERA5_1X_1H_2006_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2006_V1.nc"
+
+PATM_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2007_V1.nc"
+
+PPT_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2007_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2007_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2007_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2007_V1.nc"
+
+TAIR_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2007_V1.nc"
+
+VPD_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2007_V1.nc"
+
+WIND_ERA5_1X_1H_2007_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2007_V1.nc"
+
+PATM_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2008_V1.nc"
+
+PPT_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2008_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2008_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2008_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2008_V1.nc"
+
+TAIR_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2008_V1.nc"
+
+VPD_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2008_V1.nc"
+
+WIND_ERA5_1X_1H_2008_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2008_V1.nc"
+
+PATM_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2009_V1.nc"
+
+PPT_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2009_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2009_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2009_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2009_V1.nc"
+
+TAIR_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2009_V1.nc"
+
+VPD_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2009_V1.nc"
+
+WIND_ERA5_1X_1H_2009_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2009_V1.nc"
+
+PATM_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2010_V1.nc"
+
+PPT_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2010_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2010_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2010_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2010_V1.nc"
+
+TAIR_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2010_V1.nc"
+
+VPD_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2010_V1.nc"
+
+WIND_ERA5_1X_1H_2010_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2010_V1.nc"
+
+PATM_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2011_V1.nc"
+
+PPT_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2011_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2011_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2011_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2011_V1.nc"
+
+TAIR_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2011_V1.nc"
+
+VPD_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2011_V1.nc"
+
+WIND_ERA5_1X_1H_2011_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2011_V1.nc"
+
+PATM_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2012_V1.nc"
+
+PPT_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2012_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2012_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2012_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2012_V1.nc"
+
+TAIR_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2012_V1.nc"
+
+VPD_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2012_V1.nc"
+
+WIND_ERA5_1X_1H_2012_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2012_V1.nc"
+
+PATM_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2013_V1.nc"
+
+PPT_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2013_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2013_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2013_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2013_V1.nc"
+
+TAIR_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2013_V1.nc"
+
+VPD_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2013_V1.nc"
+
+WIND_ERA5_1X_1H_2013_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2013_V1.nc"
+
+PATM_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2014_V1.nc"
+
+PPT_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2014_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2014_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2014_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2014_V1.nc"
+
+TAIR_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2014_V1.nc"
+
+VPD_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2014_V1.nc"
+
+WIND_ERA5_1X_1H_2014_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2014_V1.nc"
+
+PATM_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2015_V1.nc"
+
+PPT_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2015_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2015_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2015_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2015_V1.nc"
+
+TAIR_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2015_V1.nc"
+
+VPD_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2015_V1.nc"
+
+WIND_ERA5_1X_1H_2015_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2015_V1.nc"
+
+PATM_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2016_V1.nc"
+
+PPT_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2016_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2016_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2016_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2016_V1.nc"
+
+TAIR_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2016_V1.nc"
+
+VPD_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2016_V1.nc"
+
+WIND_ERA5_1X_1H_2016_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2016_V1.nc"
+
+PATM_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2017_V1.nc"
+
+PPT_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2017_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2017_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2017_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2017_V1.nc"
+
+TAIR_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2017_V1.nc"
+
+VPD_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2017_V1.nc"
+
+WIND_ERA5_1X_1H_2017_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2017_V1.nc"
+
+PATM_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2018_V1.nc"
+
+PPT_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2018_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2018_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2018_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2018_V1.nc"
+
+TAIR_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2018_V1.nc"
+
+VPD_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2018_V1.nc"
+
+WIND_ERA5_1X_1H_2018_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2018_V1.nc"
+    
+PATM_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2020_V1.nc"
+    
+PPT_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2020_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2020_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2020_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2020_V1.nc"
+
+TAIR_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2020_V1.nc"
+
+VPD_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2020_V1.nc"
+
+WIND_ERA5_1X_1H_2020_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2020_V1.nc"
+
+PATM_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2021_V1.nc"
+
+PPT_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2021_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2021_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2021_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2021_V1.nc"
+
+TAIR_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2021_V1.nc"
+
+VPD_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2021_V1.nc"
+
+WIND_ERA5_1X_1H_2021_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2021_V1.nc"
+
+PATM_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2022_V1.nc"
+
+PPT_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2022_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2022_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2022_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2022_V1.nc"
+
+TAIR_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2022_V1.nc"
+
+VPD_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2022_V1.nc"
+
+WIND_ERA5_1X_1H_2022_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2022_V1.nc"
+
+PATM_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2023_V1.nc"
+
+PPT_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2023_V1.nc"
+
+RAD_LW_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2023_V1.nc"
+
+RAD_SW_DIF_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2023_V1.nc"
+
+RAD_SW_DIR_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2023_V1.nc"
+
+TAIR_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2023_V1.nc"
+
+VPD_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2023_V1.nc"
+
+WIND_ERA5_1X_1H_2023_V1:
+  PATH: "public/wd1"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2023_V1.nc"
+
