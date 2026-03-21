@@ -4968,6 +4968,6 @@ WIND_ERA5_1X_1H_2023_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2023_V1.nc"
 
 LAI_MODIS_2X_8D_2023_V1:
-  PATH: "public/v0"
+  PATH: "public/gm1"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/gm1/LAI_MODIS_2X_8D_2023_V1.nc"
