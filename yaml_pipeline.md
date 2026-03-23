@@ -151,7 +151,7 @@ GRIDDINGMACHINE:
 ## 二、 写入./GriddingMachineDatasets/Artifacts.yaml
 其中ftp地址为：ftp://114.214.212.145/GriddingMachine/public/ 后面为自定义放置的文件位置
 
-![alt text](image-7.png)
+![alt text](image-5.png)
 ![alt text](image-6.png)
 
 **exmaple：**
