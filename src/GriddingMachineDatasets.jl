@@ -36,11 +36,11 @@ include("preparation/pipeline.jl");
 #        - no NaN values per requirement (if not processed using our pipeline above, double check anyway)
 #          - land and ocean (both)
 #          - land only (land)
-include("deployment/1-verification.jl");
-include("deployment/2-upload.jl");
+# include("deployment/1-verification.jl");
+# include("deployment/2-upload.jl");
 
-# pipeline to manage the artifact library
-include("library/1-verify-urls.jl");
+# # pipeline to manage the artifact library
+# include("library/1-verify-urls.jl");
 
 
 end # module
