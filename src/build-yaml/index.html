@@ -73,7 +73,6 @@
                 <div class="grid">
                     <label>ORIGINAL <input type="text" id="ORIGINAL" value="LMA" required></label>
                     <label>REPROCESSED <input type="text" id="REPROCESSED" value="LMA" required></label>
-                    <label>TARBALL <input type="text" id="TARBALL" value="LMA" required></label>
                 </div>
             </article>
 
@@ -90,6 +89,10 @@
                     <label>LABEL (逗号分隔) <input type="text" id="LABEL" value="LMA" required></label>
                     <label>LIMITS (逗号分隔数字) <input type="text" id="LIMITS" value="0, 1" required></label>
                 </div>
+                <div class="grid">
+                    <label>DIMENSIONS (源维度顺序) <input type="text" id="DIMENSIONS" value="lon, lat" required></label>
+                    <label>GAPFILL <input type="text" id="GAPFILL" value="KEEP_AS_IS" required></label>
+                </div>
                 
                 <div class="grid">
                     <label>SCALING <span class="optional">(可选)</span> 
@@ -105,6 +108,12 @@
                         <input type="checkbox" id="REV_LAT" checked style="margin-bottom:0 !important;"> REV_LAT
                     </label>
                     <label style="display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" id="REV_LON" style="margin-bottom:0 !important;"> REV_LON
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" id="FLIP_LON" style="margin-bottom:0 !important;"> FLIP_LON
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 0.5rem;">
                         <input type="checkbox" id="VERIFY_ONCE" checked style="margin-bottom:0 !important;"> VERIFY_ONCE
                     </label>
                 </div>
@@ -112,7 +121,10 @@
 
             <article>
                 <header><strong>GRIDDINGMACHINE</strong></header>
-                <label>TAG (将作为文件名) <input type="text" id="TAG" value="LMA" required></label>
+                <div class="grid">
+                    <label>TAG (将作为文件名) <input type="text" id="TAG" value="LMA" required></label>
+                    <label>REVISION <span class="optional">(可选)</span><input type="text" id="REVISION" value=""></label>
+                </div>
             </article>
 
             <div class="grid">
@@ -148,16 +160,23 @@
                 VV: parseComma(document.getElementById('VV').value),
                 ORIGINAL: document.getElementById('ORIGINAL').value,
                 REPROCESSED: document.getElementById('REPROCESSED').value,
-                TARBALL: document.getElementById('TARBALL').value,
                 ABOUT: document.getElementById('ABOUT').value,
                 CHANGE_LOGS: parseLines(document.getElementById('CHANGE_LOGS').value),
                 LABEL: parseComma(document.getElementById('LABEL').value),
                 LIMITS: parseFloatArray(document.getElementById('LIMITS').value),
+                DIMENSIONS: parseComma(document.getElementById('DIMENSIONS').value),
+                GAPFILL: document.getElementById('GAPFILL').value,
                 REV_LAT: document.getElementById('REV_LAT').checked,
+                REV_LON: document.getElementById('REV_LON').checked,
+                FLIP_LON: document.getElementById('FLIP_LON').checked,
                 UNIT: document.getElementById('UNIT').value,
                 VERIFY_ONCE: document.getElementById('VERIFY_ONCE').checked,
-                TAG: document.getElementById('TAG').value
+                TAG: document.getElementById('TAG').value,
+                REVISION: document.getElementById('REVISION').value
             };
+
+            const gapfill = payload.GAPFILL.trim();
+            if (/^-?\d+(\.\d+)?$/.test(gapfill)) payload.GAPFILL = Number(gapfill);
 
             const yyyyVal = document.getElementById('YYYY').value.trim();
             if (yyyyVal) payload.YYYY = parseIntArray(yyyyVal);

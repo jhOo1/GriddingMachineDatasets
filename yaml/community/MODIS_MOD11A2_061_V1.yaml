@@ -6,6 +6,8 @@
 #     - NX
 #     - MT
 #     - VV
+SCHEMA_VERSION: 1
+
 FILE:
   PATTERN : "PREFIX_NX_MT_YYYY_VV.nc"
   PREFIX  : ["Day", "Night"]
@@ -18,13 +20,13 @@ FILE:
 FOLDER:
   ORIGINAL    : "GEE/MOD11A2_061"
   REPROCESSED : "GEE/MOD11A2_061"
-  TARBALL     : "GEE/MOD11A2_061"
 
 # Data configuration
 # Note that the labels should match the PREFIX in FILE section
 DATA:
   ABOUT          : "Land skin temperature"
   CHANGE_LOGS    : ["Converted to NetCDF format"]
+  GAPFILL        : "KEEP_AS_IS"
   LABEL          : ["LST", "LST"]
   LIMITS         : [170, 400]
   REV_LAT        : True

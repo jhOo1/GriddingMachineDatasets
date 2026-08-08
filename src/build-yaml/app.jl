@@ -6,8 +6,8 @@ using JSON3
 include("YamlBuilder.jl")
 using .YamlBuilder
 
-# 确保目标文件夹存在
-const SAVE_DIR = "/mnt/net/ormosia/group/jianghao/GitHub/GriddingMachineDatasets/yaml/community"
+# Save locally by default. Set GRIDDINGMACHINE_YAML_DIR to choose another directory.
+const SAVE_DIR = abspath(get(ENV, "GRIDDINGMACHINE_YAML_DIR", joinpath(pwd(), "yaml-output")))
 mkpath(SAVE_DIR)
 
 # 路由：返回独立的 index.html 文件
@@ -26,9 +26,11 @@ end
 
 @post "/save" function(req::HTTP.Request)
     payload = JSON3.read(req.body)
+    tag = String(payload.TAG)
+    occursin(r"^[A-Za-z0-9_.-]+$", tag) || return HTTP.Response(400, "TAG contains unsupported filename characters")
     yaml_str = build_yaml_string(payload)
 
-    filename = "$(payload.TAG).yaml"
+    filename = "$(tag).yaml"
     filepath = joinpath(SAVE_DIR, filename)
     write(filepath, yaml_str)
 

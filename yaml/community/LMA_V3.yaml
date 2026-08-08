@@ -6,6 +6,8 @@
 #     - NX
 #     - MT
 #     - VV
+SCHEMA_VERSION: 1
+
 FILE:
   PATTERN : "PREFIX_NX_MT_VV.nc"
   PREFIX  : ["LMA"]
@@ -17,13 +19,13 @@ FILE:
 FOLDER:
   ORIGINAL    : "LMA"
   REPROCESSED : "LMA"
-  TARBALL     : "LMA"
 
 # Data configuration
 # Note that the labels should match the PREFIX in FILE section
 DATA:
   ABOUT          : "LMA from van Bodegom et al. (2014) (https://doi.org/10.1073/pnas.1304551110)"
   CHANGE_LOGS    : ["Extracted from Dong et al. (2022) (DOI: 10.1111/geb.13680)"]
+  GAPFILL        : "KEEP_AS_IS"
   LABEL          : ["LMA"]
   LIMITS         : [0, 1]
   REV_LAT        : True

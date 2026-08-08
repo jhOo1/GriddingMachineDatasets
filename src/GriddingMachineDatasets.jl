@@ -11,9 +11,16 @@ using PkgUtility.ArtifactTools: read_library
 using PkgUtility.MathTools: nanmax, nanmean, nanmin, regrid
 using PkgUtility.PrettyDisplay: pretty_display!
 
+export ConfigValidationError, process_dataset!, standardize_dimension_order, validate_config
+
 
 # GLOABL VARIABLES
-GRIDDING_MACHINE_HOME = joinpath(homedir(), "GriddingMachine");
+GRIDDING_MACHINE_HOME = get(ENV, "GRIDDING_MACHINE_HOME", joinpath(homedir(), "GriddingMachine"));
+
+
+# shared configuration contract
+include("config/schema.jl");
+using .ConfigSchema: ConfigValidationError, standardize_dimension_order, validate_config
 
 
 # pipeline to process the dataset

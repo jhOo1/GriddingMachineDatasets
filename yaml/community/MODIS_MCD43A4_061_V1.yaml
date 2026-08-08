@@ -6,6 +6,8 @@
 #     - NX
 #     - MT
 #     - VV
+SCHEMA_VERSION: 1
+
 FILE:
   PATTERN : "PREFIX_NX_MT_YYYY_VV.nc"
   PREFIX  : ["B1", "B2", "B3", "B4", "B5", "B6", "B7"]
@@ -18,13 +20,13 @@ FILE:
 FOLDER:
   ORIGINAL    : "GEE/MCD43A4_061"
   REPROCESSED : "GEE/MCD43A4_061"
-  TARBALL     : "GEE/MCD43A4_061"
 
 # Data configuration
 # Note that the labels should match the PREFIX in FILE section
 DATA:
   ABOUT          : "Reflectance of MCD43A4 version 061 from Google Earth Engine"
   CHANGE_LOGS    : ["Converted to NetCDF format"]
+  GAPFILL        : "KEEP_AS_IS"
   LABEL          : ["REFL_B1", "REFL_B2", "REFL_B3", "REFL_B4", "REFL_B5", "REFL_B6", "REFL_B7"]
   LIMITS         : [0, 1]
   REV_LAT        : True

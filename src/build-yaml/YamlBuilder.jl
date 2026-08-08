@@ -1,84 +1,84 @@
 module YamlBuilder
 
-# 导出这个模块对外公开的函数
-export build_yaml_string
+using YAML
 
-# 辅助函数（模块内部可用）
-function format_array(arr)
-    if isempty(arr) return "[]" end
-    if eltype(arr) <: AbstractString || typeof(first(arr)) <: AbstractString
-        return "[" * join(["\"$x\"" for x in arr], ", ") * "]"
-    else
-        return "[" * join(arr, ", ") * "]"
+include(joinpath(@__DIR__, "..", "config", "schema.jl"))
+using .ConfigSchema: validate_config
+
+export build_config, build_yaml_string
+
+function _payload(payload, key::Symbol, default = nothing)
+    if hasproperty(payload, key)
+        return getproperty(payload, key)
+    elseif payload isa AbstractDict && haskey(payload, key)
+        return payload[key]
+    elseif payload isa AbstractDict && haskey(payload, String(key))
+        return payload[String(key)]
     end
+    return default
 end
 
-format_bool(b::Bool) = b ? "True" : "False"
+_array(value) = isnothing(value) ? Any[] : collect(value)
 
-# 主业务逻辑：拼接字符串
-function build_yaml_string(payload)
-    file_sec = """
-    # File name patterns
-    # Note that if YYYY does not exist, then it is not a duplicated task
-    # These keys are mandatory:
-    #     - PATTERN
-    #     - PREFIX
-    #     - NX
-    #     - MT
-    #     - VV
-    FILE:
-      PATTERN : "$(payload.PATTERN)"
-      PREFIX  : $(format_array(payload.PREFIX))
-      NX      : $(format_array(payload.NX))
-      MT      : $(format_array(payload.MT))
-    """
-    
-    if haskey(payload, :YYYY) && !isempty(payload.YYYY)
-        file_sec *= "  YYYY    : $(format_array(payload.YYYY))\n"
-    end
-    
-    file_sec *= "  VV      : $(format_array(payload.VV))\n\n"
+function build_config(payload)
+    prefixes = String.(_array(_payload(payload, :PREFIX)))
+    labels = String.(_array(_payload(payload, :LABEL)))
 
-    folder_sec = """
-    # Folder structure for input and output
-    FOLDER:
-      ORIGINAL    : "$(payload.ORIGINAL)"
-      REPROCESSED : "$(payload.REPROCESSED)"
-      TARBALL     : "$(payload.TARBALL)"
+    file = Dict{String,Any}(
+        "PATTERN" => String(_payload(payload, :PATTERN)),
+        "PREFIX" => prefixes,
+        "NX" => Int.(_array(_payload(payload, :NX))),
+        "MT" => String.(_array(_payload(payload, :MT))),
+        "VV" => String.(_array(_payload(payload, :VV))),
+    )
+    years = _array(_payload(payload, :YYYY))
+    isempty(years) || (file["YYYY"] = Int.(years))
 
-    """
+    data = Dict{String,Any}(
+        "ABOUT" => String(_payload(payload, :ABOUT)),
+        "CHANGE_LOGS" => String.(_array(_payload(payload, :CHANGE_LOGS))),
+        "GAPFILL" => _payload(payload, :GAPFILL),
+        "LABEL" => labels,
+        "LIMITS" => Float64.(_array(_payload(payload, :LIMITS))),
+        "REV_LAT" => Bool(_payload(payload, :REV_LAT, false)),
+        "REV_LON" => Bool(_payload(payload, :REV_LON, false)),
+        "FLIP_LON" => Bool(_payload(payload, :FLIP_LON, false)),
+        "UNIT" => String(_payload(payload, :UNIT)),
+        "VERIFY_ONCE" => Bool(_payload(payload, :VERIFY_ONCE, true)),
+    )
 
-    data_sec = """
-    # Data configuration
-    # Note that the labels should match the PREFIX in FILE section
-    DATA:
-      ABOUT          : "$(payload.ABOUT)"
-      CHANGE_LOGS    : $(format_array(payload.CHANGE_LOGS))
-      LABEL          : $(format_array(payload.LABEL))
-      LIMITS         : $(format_array(payload.LIMITS))
-      REV_LAT        : $(format_bool(payload.REV_LAT))
-    """
-
-    if haskey(payload, :SCALING) && payload.SCALING != ""
-        data_sec *= "  SCALING        : \"$(payload.SCALING)\"\n"
-    end
-    if haskey(payload, :SCALING_FACTOR) && !isempty(payload.SCALING_FACTOR)
-        data_sec *= "  SCALING_FACTOR : $(format_array(payload.SCALING_FACTOR))\n"
+    source_dimensions = lowercase.(String.(_array(_payload(payload, :DIMENSIONS))))
+    if !isempty(source_dimensions)
+        data["DIMENSIONS"] = Dict(label => copy(source_dimensions) for label in unique(labels))
     end
 
-    data_sec *= """
-      UNIT           : "$(payload.UNIT)"
-      VERIFY_ONCE    : $(format_bool(payload.VERIFY_ONCE))
+    scaling = _payload(payload, :SCALING, "")
+    if !isnothing(scaling) && !isempty(strip(String(scaling)))
+        data["SCALING"] = String(scaling)
+        data["SCALING_FACTOR"] = Float64.(_array(_payload(payload, :SCALING_FACTOR)))
+    end
 
-    """
+    config = Dict{String,Any}(
+        "SCHEMA_VERSION" => 1,
+        "FILE" => file,
+        "FOLDER" => Dict{String,Any}(
+            "ORIGINAL" => String(_payload(payload, :ORIGINAL)),
+            "REPROCESSED" => String(_payload(payload, :REPROCESSED)),
+        ),
+        "DATA" => data,
+        "GRIDDINGMACHINE" => Dict{String,Any}(
+            "TAG" => String(_payload(payload, :TAG)),
+        ),
+    )
 
-    gm_sec = """
-    # GriddingMachine configuration
-    GRIDDINGMACHINE:
-      TAG : $(payload.TAG)
-    """
+    revision = _payload(payload, :REVISION, "")
+    if !isnothing(revision) && !isempty(strip(String(revision)))
+        config["GRIDDINGMACHINE"]["REVISION"] = String(revision)
+    end
 
-    return file_sec * folder_sec * data_sec * gm_sec
+    return validate_config(config)
 end
 
-end # end of module
+build_yaml_string(payload) = YAML.write(build_config(payload))
+
+end # module

@@ -27,11 +27,16 @@ read_input(filepath::String, varname::String, dict::Union{Dict, OrderedDict}) = 
     @assert isfile(filepath) "original file $filepath not found...";
 
     # read the data from the netCDF file
-    data = read_nc(Float32, filepath, varname);
+    source_data = read_nc(Float32, filepath, varname);
+    data = standardize_dimension_order(source_data, varname, dict);
     ndim = ndims(data);
 
     # clear the change logs
     dict["CHANGE_LOGS_TO_WRITE"] = deepcopy(dict["CHANGE_LOGS"]);
+    if data !== source_data
+        canonical_dimensions = ndim == 2 ? "lon, lat" : "lon, lat, ind";
+        push!(dict["CHANGE_LOGS_TO_WRITE"], "Dimensions have been reordered to $(canonical_dimensions).");
+    end;
 
     # if key REV_LAT exists, reverse the latitude
     data_a = if haskey(dict, "REV_LAT") && dict["REV_LAT"]

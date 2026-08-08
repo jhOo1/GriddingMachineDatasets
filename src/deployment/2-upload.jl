@@ -73,5 +73,5 @@ update_yaml_library!(doi_url::String = "https://zenodo.org/records/17732092") = 
     return web_response;
 );
 
-# Example usage
-update_yaml_library!();
+# This file defines publishing helpers only. Publishing is an explicit operation and
+# must never run as a side effect of importing GriddingMachineDatasets.

@@ -8,9 +8,11 @@ Process the entire dataset (read, verify, save), given
 """
 function process_dataset! end;
 
-process_dataset!(yaml_file::String) = process_dataset!(read_library(yaml_file));
+process_dataset!(yaml_file::String) = process_dataset!(validate_config(read_library(yaml_file)));
 
 process_dataset!(config::Union{Dict, OrderedDict}) = (
+    validate_config(config);
+
     # make sure the path exists
     mkpath(reprocessed_folder(config));
 

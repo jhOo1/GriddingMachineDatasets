@@ -6,6 +6,8 @@
 #     - NX
 #     - MT
 #     - VV
+SCHEMA_VERSION: 1
+
 FILE:
   PATTERN : "PREFIX_NX_MT_YYYY_VV.nc"
   PREFIX  : ["CLOUD_FRACTION_CERES_EBAF_ED4.2"]
@@ -18,13 +20,13 @@ FILE:
 FOLDER:
   ORIGINAL    : "CERES/EBAF_ED4.2"
   REPROCESSED : "CERES/EBAF_ED4.2"
-  TARBALL     : "CERES/EBAF_ED4.2"
 
 # Data configuration
 # Note that the labels should match the PREFIX in FILE section
 DATA:
   ABOUT          : "CERES EBAF data edition 4.2 from Earthdata"
   CHANGE_LOGS    : ["Separate to individual variables and files"]
+  GAPFILL        : "KEEP_AS_IS"
   FLIP_LON       : True
   LABEL          : ["CLOUD_FRACTION"]
   LIMITS         : [0, 1]
