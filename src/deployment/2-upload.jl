@@ -1,77 +1,65 @@
+"""Build a verified catalog entry from a local dataset file.
+
+This helper only reads the local file. Uploading and remote record management are
+deliberately outside the package pipeline and must be performed explicitly.
 """
+function build_catalog_entry(
+        local_file::AbstractString,
+        urls::AbstractVector{<:AbstractString};
+        path::AbstractString = "public/v0",
+    )
+    isfile(local_file) || throw(ArgumentError("dataset file does not exist: $local_file"))
+    isempty(urls) && throw(ArgumentError("at least one download URL is required"))
+    all(url -> any(prefix -> startswith(url, prefix), ("https://", "http://", "ftp://")), urls) ||
+        throw(ArgumentError("download URLs must use HTTP(S) or FTP"))
 
-    verify_uploads!(doi_url::String)
+    digest = open(local_file, "r") do io
+        bytes2hex(SHA.sha256(io))
+    end
+    return Dict{String,Any}(
+        "PATH" => String(path),
+        "URL" => unique(String.(urls)),
+        "SIZE" => filesize(local_file),
+        "SHA256" => digest,
+    )
+end
 
-Verify the uploaded datasets to make sure a dict could be parsed from the website, given
-- `doi_url` the DOI or url of the uploaded datasets
+"""Update a local YAML catalog transactionally from local artifact specifications.
 
+Each value in `artifacts` must contain `FILE` and `URL`; `PATH` is optional. The
+function neither uploads files nor changes a remote Zenodo/GitHub record.
 """
-function update_yaml_library! end;
+function update_yaml_library!(
+        yaml_file::AbstractString,
+        artifacts::AbstractDict;
+        default_path::AbstractString = "public/v0",
+    )
+    catalog = if isfile(yaml_file)
+        loaded = YAML.load_file(yaml_file)
+        loaded isa AbstractDict || throw(ArgumentError("catalog root must be a mapping"))
+        Dict{String,Any}(String(key) => value for (key, value) in loaded)
+    else
+        Dict{String,Any}()
+    end
 
-yaml_file = "/mnt/net/ormosia/group/jianghao/GitHub/GriddingMachineDatasets/Artifacts.yaml";
-ftp_base = "ftp://114.214.212.145/GriddingMachine/public/GM1-GM2-R1/"
-path = "public/v0";
+    for (raw_tag, raw_spec) in artifacts
+        tag = String(raw_tag)
+        isempty(strip(tag)) && throw(ArgumentError("artifact tag must not be empty"))
+        raw_spec isa AbstractDict || throw(ArgumentError("$tag specification must be a mapping"))
+        haskey(raw_spec, "FILE") || throw(ArgumentError("$tag.FILE is required"))
+        haskey(raw_spec, "URL") || throw(ArgumentError("$tag.URL is required"))
+        path = get(raw_spec, "PATH", default_path)
+        catalog[tag] = build_catalog_entry(raw_spec["FILE"], raw_spec["URL"]; path)
+    end
 
-update_yaml_library!(doi_url::String = "https://zenodo.org/records/17732092") = (
-    web_response = HTTP.get(doi_url; require_ssl_verification = false);
-
-    # 1. if the response is not 200, raise an error
-    if web_response.status != 200
-        error("Faild to access the uploader datasets at $(doi_url)!");
-        return nothing
-    end;
-    
-    # 2. obtain the URL address of the NC files
-    nc_urls = get_zenodo_nc_urls(zenodo_record_url);
-    if isempty(nc_urls)
-        error("no .nc files found");
-    end;
-
-    # 3. read existing YAML files
-    yaml_data = isfile(yaml_file) ? read_library(yaml_file) : Dict{String,Any}();
-
-    # 4. traverse .nc links and update YAML data
-    for zenodo_url in nc_urls
-        # 4.1 extract Key (file name, remove .nc suffix)
-        # "https://zenodo.org/records/17732092/files/CHL_2X_7D_V1.nc"
-        file_name = split(zenodo_url, "/")[end];
-        art_key = replace(file_name, ".nc" => "");
-        
-        # 4.2 generate FTP address (concatenate base+Key+ .nc)
-        ftp_url = joinpath(ftp_base, "$art_key.nc");  
-        
-        # 4.3 logic for handling the existence/non existence of keys
-        if haskey(yaml_data, art_key)
-            # key already exists: Verify if URL needs to be appended
-            existing_urls = get(yaml_data[art_key], "URL", []);
-            
-            # check if Zenodo URL already exists
-            if !(zenodo_url in existing_urls)
-                push!(existing_urls, zenodo_url);                 
-                push!(existing_urls, ftp_url);  
-                yaml_data[art_key]["URL"] = existing_urls;
-            end;
-        else
-            # key is not found: create a new entry
-            new_item = Dict{String,Any}(
-                "PATH" => path,
-                "URL"  => [ftp_url, zenodo_url] 
-            );
-            yaml_data[art_key] = new_item;
-
-        end;
-    end;
-
-    # 5. write updated data to YAML file
-    save_library!(yaml_file, sort(yaml_data));
-    @info "Successfully updated YAML library: $yaml_file";
-
-    
-    # TODO: 这里添加 FTP 上传逻辑，新文件上传到 FTP 服务器
-    # upload_to_ftp(ftp_url, zenodo_url)
-    
-    return web_response;
-);
-
-# This file defines publishing helpers only. Publishing is an explicit operation and
-# must never run as a side effect of importing GriddingMachineDatasets.
+    destination = abspath(yaml_file)
+    mkpath(dirname(destination))
+    temporary = tempname(dirname(destination))
+    try
+        YAML.write_file(temporary, Dict(key => catalog[key] for key in sort!(collect(keys(catalog)))))
+        mv(temporary, destination; force = true)
+    finally
+        isfile(temporary) && rm(temporary; force = true)
+    end
+    return catalog
+end

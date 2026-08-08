@@ -3,6 +3,8 @@ module GriddingMachineDatasets
 using FTPClient
 using HTTP
 using Revise
+using SHA
+using YAML
 
 using GriddingMachine.Indexer: read_dataset
 using NetcdfIO: append_nc!, dimname_nc, read_nc, save_nc!, size_nc, varname_nc
@@ -11,11 +13,21 @@ using PkgUtility.ArtifactTools: read_library
 using PkgUtility.MathTools: nanmax, nanmean, nanmin, regrid
 using PkgUtility.PrettyDisplay: pretty_display!
 
-export ConfigValidationError, process_dataset!, standardize_dimension_order, validate_config
+export ConfigValidationError, build_catalog_entry, process_dataset!,
+       standardize_dimension_order, update_yaml_library!, validate_config
 
 
-# GLOABL VARIABLES
-GRIDDING_MACHINE_HOME = get(ENV, "GRIDDING_MACHINE_HOME", joinpath(homedir(), "GriddingMachine"));
+# Runtime configuration must not be frozen into the package precompile cache.
+GRIDDING_MACHINE_HOME = joinpath(homedir(), "GriddingMachine")
+
+function __init__()
+    global GRIDDING_MACHINE_HOME = get(
+        ENV,
+        "GRIDDING_MACHINE_HOME",
+        joinpath(homedir(), "GriddingMachine"),
+    )
+    return nothing
+end
 
 
 # shared configuration contract
