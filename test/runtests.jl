@@ -14,5 +14,6 @@ if lowercase(get(ENV, "GMD_RUN_INTEGRATION_TESTS", "false")) == "true"
     @testset "Package integration" begin
         include("package-load.jl")
         include("catalog-generation.jl")
+        include("pipeline-integration.jl")
     end
 end
