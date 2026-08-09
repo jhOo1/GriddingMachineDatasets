@@ -62,6 +62,22 @@ using NetcdfIO
             GriddingMachineDatasets.process_dataset!(yaml_file; verifier)
             @test reviews[] == 1
 
+            reusable_config = deepcopy(config)
+            reusable_config["GRIDDINGMACHINE"]["TAG"] = "TESTDICT"
+            reusable_reviews = Ref(0)
+            reusable_verifier = (data, section) -> begin
+                reusable_reviews[] += 1
+                isequal(data, expected)
+            end
+            GriddingMachineDatasets.process_dataset!(reusable_config; verifier = reusable_verifier)
+            GriddingMachineDatasets.process_dataset!(reusable_config; verifier = reusable_verifier)
+            @test reusable_reviews[] == 1
+            @test !haskey(reusable_config["DATA"], "CHANGE_LOGS_TO_WRITE")
+            reusable_output = joinpath(directory, "reprocessed", "case-output",
+                "TESTDICT_SRC_2X_1Y_V1.nc")
+            @test isfile(reusable_output)
+            @test isequal(NetcdfIO.read_nc(Float32, reusable_output, "data"), expected)
+
             source_3d = reshape(Float32.(1:16), 2, 2, 4)
             source_file_3d = joinpath(original_dir, "CUBE_2X_1M_V1.nc")
             NetcdfIO.save_nc!(source_file_3d, "cube", source_3d, Dict{String,Any}("about" => "3-D fixture"))

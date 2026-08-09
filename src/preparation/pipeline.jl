@@ -11,33 +11,36 @@ function process_dataset! end;
 process_dataset!(yaml_file::String; verifier = verify_data!) =
     process_dataset!(validate_config(read_library(yaml_file)); verifier);
 
-process_dataset!(config::Union{Dict, OrderedDict}; verifier = verify_data!) = (
-    validate_config(config);
+function process_dataset!(config::Union{Dict, OrderedDict}; verifier = verify_data!)
+    # Reading, gap filling and saving append internal change-log entries. Work on
+    # a private copy so callers can safely reuse the same validated config.
+    working_config = deepcopy(config)
+    validate_config(working_config)
 
     # make sure the path exists
-    mkpath(reprocessed_folder(config));
+    mkpath(reprocessed_folder(working_config))
 
     # read the FILE configurations
-    dict_file = config["FILE"];
-    prefixs = dict_file["PREFIX"];
-    nxs = dict_file["NX"];
-    mts = dict_file["MT"];
-    vvs = dict_file["VV"];
-    yyyy = haskey(dict_file, "YYYY") ? dict_file["YYYY"] : nothing;
+    dict_file = working_config["FILE"]
+    prefixs = dict_file["PREFIX"]
+    nxs = dict_file["NX"]
+    mts = dict_file["MT"]
+    vvs = dict_file["VV"]
+    yyyy = haskey(dict_file, "YYYY") ? dict_file["YYYY"] : nothing
 
     # loop through the files and process each file
     for prefix in prefixs, nx in nxs, mt in mts, vv in vvs
         if isnothing(yyyy)
-            process_dataset!(config, prefix, nx, mt, vv, nothing; verifier);
+            process_dataset!(working_config, prefix, nx, mt, vv, nothing; verifier)
         else
             for year in yyyy
-                process_dataset!(config, prefix, nx, mt, vv, year; verifier);
-            end;
-        end;
-    end;
+                process_dataset!(working_config, prefix, nx, mt, vv, year; verifier)
+            end
+        end
+    end
 
     return nothing
-);
+end
 
 process_dataset!(config::Union{Dict, OrderedDict}, prefix::String, nx::Int, mt::String, vv::String, yyyy::Union{Int,Nothing}; verifier = verify_data!) = (
     # make sure the output file does not exist. If exists, skip the process
