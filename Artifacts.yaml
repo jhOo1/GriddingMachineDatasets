@@ -12,6 +12,8 @@ CHL_20X_7D_V2:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/CHL_20X_7D_V2.nc"
 CHL_2X_7D_V1:
   PATH: "public/v0"
+  SIZE: 7438033
+  SHA256: "1838b07daed46ebd623def204f3cbf339be160fa6754cb1bc4fed8b61b5b54e2"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CHL_2X_7D_V1.nc"
     - "https://zenodo.org/records/17732092/files/CHL_2X_7D_V1.nc"
@@ -26,6 +28,8 @@ CHL_2X_7D_V2:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/CHL_2X_7D_V2.nc"
 CH_20X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 4207244
+  SHA256: "77492a5d621103e895ca940208299bdd5b8bc4f93702f6fb4bdbe4476b2745c4"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CH_20X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/CH_20X_1Y_V1.nc"
@@ -43,6 +47,8 @@ CI_240X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/CI_240X_1Y_V1.nc"
 CI_2X_1M_V3:
   PATH: "public/v0"
+  SIZE: 4130395
+  SHA256: "e526292d50a74da52b91c77e00a3ff9d356cdd7b81343207a09b59a1c1367079"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/CI_2X_1M_V3.nc"
     - "https://zenodo.org/records/17732092/files/CI_2X_1M_V3.nc"
@@ -163,6 +169,8 @@ CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2023_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/CLOUD_FRACTION_CERES_EBAF_ED4.2_1X_1M_2023_V1.nc"
 ELEV_4X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 810299
+  SHA256: "642a485fda9517d267a71a63f8cbbb79b924bb19b2ff18a6471c0305b5be6f0f"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/ELEV_4X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/ELEV_4X_1Y_V1.nc"
@@ -1105,6 +1113,8 @@ LAI_MODIS_2X_8D_2019_V1_R1:
     - "https://zenodo.org/records/17873650/files/LAI_MODIS_2X_8D_2019_V1_R1.nc"
 LAI_MODIS_2X_8D_2020_V1:
   PATH: "public/v0"
+  SIZE: 13936426
+  SHA256: "fda32f694a38d9d3c5244cd5bd739825c7441c918d91e56442a553ab4fa5d0df"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LAI_MODIS_2X_8D_2020_V1.nc"
     - "https://zenodo.org/records/17732092/files/LAI_MODIS_2X_8D_2020_V1.nc"
@@ -1271,6 +1281,8 @@ LMA_2X_1Y_V7:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/LMA_2X_1Y_V7.nc"
 LM_4X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 1450609
+  SHA256: "d71fb262797e32c2ea9567b99af25d00dadebd335a01bb1aa8b108df267b393e"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/LM_4X_1Y_V1.nc"
     - "https://zenodo.org/records/17709092/files/LM_4X_1Y_V1.nc"
@@ -1693,6 +1705,8 @@ PATM_ERA5_1X_1H_2019_V1:
     - "https://zenodo.org/records/17730874/files/PATM_ERA5_1X_1H_2019_V1.nc"
 PFT_2X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 983008
+  SHA256: "e93c21167ae55a611c89b6e046cba9553ffcc54372122f807e4be49146cc7f0c"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/PFT_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/PFT_2X_1Y_V1.nc"
@@ -3075,6 +3089,8 @@ SA_2X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SA_2X_1Y_V1.nc"
 SC_2X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 90987
+  SHA256: "a752c43b9c383890bb221f428554eec4bba3ae1b1ba3b7165340f8acc61f8d42"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SC_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SC_2X_1Y_V1.nc"
@@ -3845,6 +3861,8 @@ SLA_12X_1Y_V3:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SLA_12X_1Y_V3.nc"
 SLA_2X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 505273
+  SHA256: "352c864477922925057605b70fc20810b6e738989b5a96e70e4fb8701a0f6179"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SLA_2X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SLA_2X_1Y_V1.nc"
@@ -3876,6 +3894,8 @@ SOIL_SWCR_120X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_SWCR_120X_1Y_V1.nc"
 SOIL_SWCR_12X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 33924760
+  SHA256: "39b55ba85d9bfa2cd0c611d27009269b5d21278a3b850eb5f5c6f8ab9ae36a76"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_SWCR_12X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SOIL_SWCR_12X_1Y_V1.nc"
@@ -3885,6 +3905,8 @@ SOIL_SWCS_120X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_SWCS_120X_1Y_V1.nc"
 SOIL_SWCS_12X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 46065259
+  SHA256: "e65f4af354a0131998e99ca729d1820ed28267f7ea5f18d2fc5ec3b6fec5fa29"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_SWCS_12X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SOIL_SWCS_12X_1Y_V1.nc"
@@ -3902,6 +3924,8 @@ SOIL_VGA_120X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_VGA_120X_1Y_V1.nc"
 SOIL_VGA_12X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 27943068
+  SHA256: "6186c2d080ac818c732f0708678fc177eea6cdce9af0ffb3fc7efc48684493c3"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_VGA_12X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SOIL_VGA_12X_1Y_V1.nc"
@@ -3911,6 +3935,8 @@ SOIL_VGN_120X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/SOIL_VGN_120X_1Y_V1.nc"
 SOIL_VGN_12X_1Y_V1:
   PATH: "public/v0"
+  SIZE: 42280208
+  SHA256: "6b3ea92bd5e1e7ea20dbbed25f9360fbbeaec01c752a502dd9e64c22b652dd99"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/SOIL_VGN_12X_1Y_V1.nc"
     - "https://zenodo.org/records/17732092/files/SOIL_VGN_12X_1Y_V1.nc"
@@ -4021,6 +4047,8 @@ VCMAX_2X_1Y_V1:
     - "ftp://114.214.212.145/GriddingMachine/public/v0/VCMAX_2X_1Y_V1.nc"
 VCMAX_2X_1Y_V2:
   PATH: "public/v0"
+  SIZE: 639384
+  SHA256: "52cd1b95b5bf07cc34f900cf9b7c840c8ab8454c7ee76ffc8a80c856f5ff7cd4"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/old-gm1-gm2/VCMAX_2X_1Y_V2.nc"
     - "https://zenodo.org/records/17732092/files/VCMAX_2X_1Y_V2.nc"
