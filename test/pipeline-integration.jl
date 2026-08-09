@@ -57,6 +57,7 @@ using NetcdfIO
             @test isfile(output_file)
             @test isequal(NetcdfIO.read_nc(Float32, output_file, "data"), expected)
             @test reviews[] == 1
+            @test GriddingMachineDatasets.verify_processed_data!(output_file, "both", (23, 49)) === nothing
 
             GriddingMachineDatasets.process_dataset!(yaml_file; verifier)
             @test reviews[] == 1
@@ -90,6 +91,7 @@ using NetcdfIO
             @test isfile(output_file_3d)
             @test NetcdfIO.read_nc(Float32, output_file_3d, "data") == expected_3d
             @test reviews_3d[] == 1
+            @test GriddingMachineDatasets.verify_processed_data!(output_file_3d, "both", (1, 16)) === nothing
         finally
             GriddingMachineDatasets.GRIDDING_MACHINE_HOME = original_home
         end

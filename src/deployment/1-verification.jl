@@ -19,8 +19,8 @@ verify_processed_data!(filepath::String, coverage::String, limits::Tuple{<:Numbe
     @assert coverage in ["both", "land"] "Coverage $coverage is not valid!";
 
     # make sure the data file contains the following variables depending on the dimension
-    dims = dimname_nc(filepath);
-    vars = varname_nc(filepath);
+    dims = String.(read_dimnames(filepath));
+    vars = String.(read_varnames(filepath));
     @assert "lat" in dims "Dimension 'lat' not found in $(filepath)!";
     @assert "lon" in dims "Dimension 'lon' not found in $(filepath)!";
     @assert "lat" in vars "Variable 'lat' not found in $(filepath)!";
@@ -32,13 +32,13 @@ verify_processed_data!(filepath::String, coverage::String, limits::Tuple{<:Numbe
     @info "All mandatory dimensions and variables are found in provided file.";
 
     # make sure the data is stored correctly: lon as 1st dim, lat as 2nd dim (and ind as 3rd dim if exists)
-    lon_size = size_nc(filepath, "lon")[2][1];
-    lat_size = size_nc(filepath, "lat")[2][1];
-    dat_size = size_nc(filepath, "data")[2];
+    lon_size = read_dims(filepath, "lon")[2][1];
+    lat_size = read_dims(filepath, "lat")[2][1];
+    dat_size = read_dims(filepath, "data")[2];
     @assert dat_size[1] == lon_size "The size of 'lon' dimension does not match the 1st dimension of 'data' variable!";
     @assert dat_size[2] == lat_size "The size of 'lat' dimension does not match the 2nd dimension of 'data' variable!";
     if length(dims) >= 3
-        ind_size = size_nc(filepath, "ind")[2][1];
+        ind_size = read_dims(filepath, "ind")[2][1];
         @assert dat_size[3] == ind_size "The size of 'ind' dimension does not match the 3rd dimension of 'data' variable!";
     end;
     @info "The dimensions of 'data' variable match the dimensions of lon and lat.";

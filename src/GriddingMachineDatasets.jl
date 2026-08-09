@@ -7,7 +7,7 @@ using SHA
 using YAML
 
 using GriddingMachine.Indexer: read_dataset
-using NetcdfIO: append_nc!, dimname_nc, read_nc, save_nc!, size_nc, varname_nc
+using NetcdfIO: append_nc!, read_dimnames, read_dims, read_nc, read_varnames, save_nc!
 using OrderedCollections: OrderedDict
 using PkgUtility.ArtifactTools: read_library
 using PkgUtility.MathTools: nanmax, nanmean, nanmin, regrid
