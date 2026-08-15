@@ -1,6 +1,7 @@
 *.gif
 *.png
 *.yaml
+Manifest.toml
 
 # exceptions
 !Artifacts.yaml

@@ -20,12 +20,13 @@ TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
 [sources]
-GriddingMachine = {rev = "wyujie", url = "https://github.com/CliMA/GriddingMachine.jl.git"}
-NetcdfIO = {rev = "wyujie", url = "https://github.com/Yujie-W/NetcdfIO.jl.git"}
-PkgUtility = {rev = "wyujie", url = "https://github.com/Yujie-W/PkgUtility.jl.git"}
+GriddingMachine = {rev = "53bb0be8b676f88d3d3dbe32f20aefdad883fcc2", url = "https://github.com/CliMA/GriddingMachine.jl.git"}
 
 [compat]
 Dates = "1.11.0"
 FTPClient = "1.2.1"
+GriddingMachine = "0.5.0"
 HTTP = "1.10.19"
+NetcdfIO = "0.3.0"
 PkgUtility = "0.3.1"
+julia = "1.12"
