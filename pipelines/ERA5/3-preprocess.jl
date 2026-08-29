@@ -31,7 +31,7 @@ for yyyy in EARLIEST_YEAR:LATEST_YEAR
         wd_precip = read_nc(Float32, old_version_file_path("total_precipitation", yyyy), "tp");
 
         pretty_display!("Saving precipitation data to new file...", "tinfo_end");
-        save_nc!(new_fn, "data", wd_precip, Dict{String,Any}("about" => "Total precipitation within 1 hour", "units" => "mm"));
+        save_nc!(new_fn, "data", wd_precip, Dict{String,Any}("about" => "Total precipitation accumulated over 1 hour", "units" => "m"));
     elseif isfile(new_fn)
         @info "Precipitation data for year $(yyyy) already exists, skipping...";
     elseif !isfile(old_fn)
