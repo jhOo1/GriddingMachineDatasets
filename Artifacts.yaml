@@ -4837,43 +4837,57 @@ WIND_ERA5_1X_1H_2018_V1:
     
 PATM_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 1708634958
+  SHA256: "e6bac9ed86d8794b1e3f4a6ede9adf52d9818dbcb52d364ddfc2daceef0b93a2"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/PATM_ERA5_1X_1H_2020_V1.nc"
     
 PPT_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
-  URL:
-    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2020_V1_R1.nc"
   SIZE: 1102213097
   SHA256: "1ae6b80512fac97e6b3e609c02ea126858256cf9153ead1335b5bf8d59fe7725"
+  URL:
+    - "ftp://114.214.212.145/GriddingMachine/public/wd1/PPT_ERA5_1X_1H_2020_V1_R1.nc"
 
 RAD_LW_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 1893303194
+  SHA256: "4b696a25e23dac77e3184f1e15e24a1ce279c0d497c02a2494a6813ebb3b89af"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_LW_ERA5_1X_1H_2020_V1.nc"
 
 RAD_SW_DIF_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 1102705871
+  SHA256: "50a692cbbfbd9014f84185397b0f8ef876a0905e1c37ccc3f6cde740da349fe1"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIF_ERA5_1X_1H_2020_V1.nc"
 
 RAD_SW_DIR_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 1072438369
+  SHA256: "c448c6015fbd478c9bcf0f22a868ec546c81cf7ed8dd9de06d046fa6d3f598b8"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/RAD_SW_DIR_ERA5_1X_1H_2020_V1.nc"
 
 TAIR_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 1707775062
+  SHA256: "168fe98291d9e1e4f2859df0705fd8e0e5de68d1e89c12b5e4cac1f47acceb7a"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/TAIR_ERA5_1X_1H_2020_V1.nc"
 
 VPD_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 1973000140
+  SHA256: "e5defc512c51a69706a4e4c734aab11160ee38c963e8736dead26914d97e4abd"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/VPD_ERA5_1X_1H_2020_V1.nc"
 
 WIND_ERA5_1X_1H_2020_V1:
   PATH: "public/wd1"
+  SIZE: 2015305447
+  SHA256: "322d724fe2afdb330e7a66dce5650e465d9052fbfc209fbc3e13fa18f262a38c"
   URL:
     - "ftp://114.214.212.145/GriddingMachine/public/wd1/WIND_ERA5_1X_1H_2020_V1.nc"
 
